@@ -1,0 +1,37 @@
+{
+    "kubernetes": {
+        "pods and containers":{
+            "labs": {
+                "helloworld": {
+                    "title": "Hello world",
+                    "description": "Run a simple HelloWorld Application from cloudplex.",
+                    "complexity":"easy",
+                    "time":"00:20:00"
+                }
+            }
+        },
+        "deployment": {
+            "labs": {
+                "guestbook": {
+                    "title": "GuestBook Application",
+                    "description": "Deploy redis and guestbook application.",
+                    "complexity":"easy",
+                    "time":"00:25:00"
+                }
+            },
+            "videos": {
+                "lab-folder-name" : "url"
+            }
+        },
+        "persistent volumes":{
+            "labs": {
+                "hostfet": {
+                    "title": "Hostfet Application",
+                    "description": "Store caller information on persistent disk and return it.",
+                    "complexity":"intermediate",
+                    "time":"00:30:00"
+                }
+            }
+        }
+    }
+}
