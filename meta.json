@@ -22,7 +22,7 @@
             "tutorials": {
                 "guestbook": {
                     "title": "GuestBook Application Tutorial",
-                    "description": "This is Guestbook Deployment Tutorial, which will help you to deploy Redis and Guestbook Application.",
+                    "description": "This is Guestbook Deployment Tutorial, which will help you to deploy Redis and Guestbook Application."
                 }
             }
         },
@@ -38,7 +38,7 @@
             "tutorials": {
                 "hostfet": {
                     "title": "Hostfet Application Tutorial",
-                    "description": "This is Hostfet Applcation Tutorial, which will help you to store caller information on persistent disk and return it.",
+                    "description": "This is Hostfet Applcation Tutorial, which will help you to store caller information on persistent disk and return it."
                 }
             }
         }
