@@ -99,7 +99,7 @@ All the volume will be available in **container service** which have dependency 
 
 Lets select the volume which we have added on the canvas and provide the mount path
 
-Click on configure volume container section
+Click on Advanced Configurations your then select Configure Volume Containers section.
 
 ![Lab03-contianer-serivce-configuraion-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/hostfet/images/Lab03-contianer-serivce-configuraion-05.png)
 
