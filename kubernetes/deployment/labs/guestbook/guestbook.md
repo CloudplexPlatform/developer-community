@@ -34,7 +34,7 @@ CloudPlex has integrated with [Cloud Provider registries](https://hub.docker.com
 
 Drag **Container** service from palette and drop it on canvas. 
 
-![ezgif.com-video-to-gif](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/deployment/labs/guestbook/images/ezgif.com-video-to-gif.gif)
+![container](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/deployment/labs/guestbook/images/container.gif)
 
 ### Configure Redis Master Service 
 
@@ -54,7 +54,6 @@ Select the service to open configuration of the service on the right side of the
 
    ![lab02-configure-service-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/deployment/labs/guestbook/images/lab02-configure-service-04.png)
 
-4. Click on the download button to fetch metadata of the service
 
 #### Add new Port
 
@@ -87,6 +86,10 @@ Click on the save button to save the configuration of the service
 
 ### Configure Redis Slave Service
 
+Drag another **Container** service from palette and drop it on canvas. 
+
+![container-service](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/deployment/labs/guestbook/images/container-service.gif)
+
 Select the service to open configuration of the service on the right side of the window
 
 ![lab02-configure-service-10](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/deployment/labs/guestbook/images/lab02-configure-service-10.png)
@@ -103,7 +106,6 @@ Select the service to open configuration of the service on the right side of the
 
    ![lab02-configure-service-13](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/deployment/labs/guestbook/images/lab02-configure-service-13.png)
 
-4. Click on the download button to fetch metadata of the service
 
 #### Add new Environment Variable
 
@@ -173,7 +175,6 @@ Select the service to open configuration of the service on the right side of the
 
    ![lab02-configure-service-26](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/deployment/labs/guestbook/images/lab02-configure-service-26.png)
 
-4. Click on the download button to fetch service metadata of the service
 
 #### Add new Environment Variable
 
