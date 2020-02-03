@@ -9,7 +9,7 @@
 
 #### Add Service
 
-Cloudplex has integrated with [Docker Hub](https://hub.docker.com/){:target="_blank"} registry which allows users to access prebuilt images. You can fetch images metadata (Environment variables, Ports).
+Cloudplex has integrated with [Docker Hub](https://hub.docker.com/?target=_blank) registry which allows users to access prebuilt images. You can fetch images metadata (Environment variables, Ports).
 
 Locate the green indicator and Drag-n-drop **DockerHub** services from pallet to canvas. 
 
