@@ -77,7 +77,7 @@ Click on the volume service and locate an arrow below it, then drag this arrow t
 
 Select the service to open configuration of the service on the right side of the window
 
-![Lab03-contianer-serivce-configuraion-01]https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/hostfet/images/Lab03-contianer-serivce-configuraion-01.png)
+![Lab03-contianer-serivce-configuraion-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/hostfet/images/Lab03-contianer-serivce-configuraion-01.png)
 
 1. Change name of the service to **hostfet**
 
