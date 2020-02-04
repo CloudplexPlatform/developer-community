@@ -67,11 +67,11 @@ Drag **container** service from palette and drop it on canvas
 
 ![Lab03-add-volume-service-08](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-add-volume-service-08.png)
 
-#### Create Dependency
+<!-- #### Create Dependency
 
 Click on the volume service and locate an arrow below it, then drag this arrow towards container service
 
-![Lab03-create-dependency-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-create-dependency-01.gif)
+![Lab03-create-dependency-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-create-dependency-01.gif) -->
 
 
 
@@ -91,7 +91,7 @@ Select the service to open configuration of the service on the right side of the
 
    ![Lab03-contianer-serivce-configuraion-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-contianer-serivce-configuraion-04.png)
 
-4. Click on the download button to fetch metadata of the service
+<!-- 4. Click on the download button to fetch metadata of the service -->
 
 **Mount Volume**
 
@@ -103,7 +103,8 @@ Click on Advanced Configurations your then select Configure Volume Containers se
 
 ![Lab03-contianer-serivce-configuraion-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-contianer-serivce-configuraion-05.png)
 
-Select your volume and type mount path
+<!-- Select your volume and type mount path -->
+Click on **Configure Volume Containers** then select your volume and provide mount path
 
 ![Lab03-contianer-serivce-configuraion-06](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-contianer-serivce-configuraion-06.png)
 
