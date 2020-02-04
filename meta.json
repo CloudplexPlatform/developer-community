@@ -28,17 +28,17 @@
         },
         "persistent volumes": {
             "labs": {
-                "hostfet": {
-                    "title": "Hostfet Application Lab",
+                "callerinfo": {
+                    "title": "Callerinfo Application Lab",
                     "description": "Store caller information on persistent disk and return it.",
                     "complexity": "intermediate",
                     "time": "00:30:00"
                 }
             },
             "tutorials": {
-                "hostfet": {
-                    "title": "Hostfet Application Tutorial",
-                    "description": "This is Hostfet Applcation Tutorial, which will help you to store caller information on persistent disk and return it."
+                "callerinfo": {
+                    "title": "Callerinfo Application Tutorial",
+                    "description": "This is Callerinfo Application Tutorial, which will help you to store caller information on persistent disk and return it."
                 }
             }
         }
