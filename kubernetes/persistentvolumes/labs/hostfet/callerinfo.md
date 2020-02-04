@@ -11,7 +11,7 @@ https://github.com/cloudplex-io/callerinfo-sample-app
 
 A [PersistentVolume](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) (PV) is a piece of storage in the cluster that has been dynamically provisioned by Kubernetes using a [StorageClass](https://kubernetes.io/docs/concepts/storage/storage-classes).
 
-Hostfet application required persistent volume to store **caller** information.
+Callerinfo application required persistent volume to store **caller** information.
 
 Lets drop a volume service on canvas which will create **Storage Class**, **Persistent Volume Claim**, and **Persistent Volume** 
 
@@ -41,7 +41,7 @@ Click on the save button to save the configuration of the service
 
 #### Add hostfet Service
 
-Hostfet application is a restful microservice which stores **caller** information on the volume
+Callerinfo application is a restful microservice which stores **caller** information on the volume
 
 Locate the **Container** services in the pallet.
 
@@ -63,11 +63,11 @@ Select the service to open configuration of the service on the right side of the
 
 ![Lab03-contianer-serivce-configuraion-01](images/Lab03-contianer-serivce-configuraion-01.png)
 
-1. Change name of the services to **hostfet**
+1. Change name of the services to **callerinfo**
 
    ![Lab03-contianer-serivce-configuraion-02](images/Lab03-contianer-serivce-configuraion-02.png)
 
-2. Enter the image name **cloudplexng/hostfet**
+2. Enter the image name **cloudplexng/callerinfo**
 
    ![Lab03-contianer-serivce-configuraion-03](images/Lab03-contianer-serivce-configuraion-03.png)
 
