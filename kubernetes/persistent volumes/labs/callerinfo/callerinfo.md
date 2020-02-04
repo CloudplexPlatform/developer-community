@@ -10,7 +10,7 @@ This Lab will help you to store caller information on persistent disk and return
 
 ### Code Repository
 
-https://github.com/cloudplex-io/callerinfo-sample-app
+https://github.com/CloudplexPlatform/callerinfo-sample-application
 
 ### Cloud Provider
 
@@ -91,12 +91,13 @@ All the volume will be available in **container service** which have dependency 
 
 Lets select the volume which we have added on the canvas and provide the mount path
 
-Click on Advanced Configurations your then select Configure Volume Containers section.
+Click on Advanced Configurations then select Configure Volume Containers section.
 
 ![Lab03-contianer-serivce-configuraion-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-contianer-serivce-configuraion-05.png)
 
 
 Click on **Configure Volume Containers** then select your volume and provide mount path
+** **/caller-data** is the volume mount path
 
 ![Lab03-contianer-serivce-configuraion-06](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-contianer-serivce-configuraion-06.png)
 
@@ -118,8 +119,6 @@ CloudPlex provides two types of variables (**Static, Dynamic**). Let's add a sta
 Key : DIR_PATH
 Value : /caller-data
 ```
-** **/caller-data** is the volume mount path
-
 
 ![Lab03-contianer-serivce-configuraion-08](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-contianer-serivce-configuraion-08.png)
 
