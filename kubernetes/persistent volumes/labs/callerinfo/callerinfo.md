@@ -43,7 +43,7 @@ Type namespace **default** of the service
 
 ![Lab03-add-volume-service-03](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-add-volume-service-03.png)
 
-Select Volume type **gp2** of the service
+Select Volume type specific to your selected cloud.
 
 ![Lab03-add-volume-service-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-add-volume-service-04.png)
 
