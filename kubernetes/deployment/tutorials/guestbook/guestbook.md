@@ -4,7 +4,7 @@ This is Guestbook Deployment Tutorial, which will help you to deploy Redis and G
 
 ### Relevant Material
 
-[Lab](https://learning.cloudplex.io/cloudplex-labs/docs/Lab2)
+[Lab](https://learning.cloudplex.io/learning/docs/guestbook-lab)
 
 [Video]()
 

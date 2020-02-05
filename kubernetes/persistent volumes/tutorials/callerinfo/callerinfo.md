@@ -1,11 +1,11 @@
 ### Objective
 
-This is Callerinfo Applcation Tutorial, which will help you to store caller information on persistent disk and return it.
+This is Callerinfo Application Tutorial, which will help you to store caller information on persistent disk and return it.
 
 
 ### Relevant Material
 
-[Lab](https://learning.cloudplex.io/cloudplex-labs/docs/Lab3)
+[Lab](https://learning.cloudplex.io/learning/docs/callerinfo-lab)
 
 [Video]()
 

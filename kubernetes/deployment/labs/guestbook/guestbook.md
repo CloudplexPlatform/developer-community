@@ -4,7 +4,7 @@ This Lab will help you to deploy Redis and Guestbook application.
 
 ### Relevant Material
 
-[Tutorial](https://learning.cloudplex.io/cloudplex-labs/docs/Tutorial4)
+[Tutorial](https://learning.cloudplex.io/learning/docs/guestbook-tutorial)
 
 [Video]()
 
