@@ -43,7 +43,7 @@ Click on the save button to save the configuration of the service
 
 Callerinfo application is a restful microservice which stores **caller** information on the volume
 
-Locate the **Container** services in the pallet.
+Locate the **Container** services from K8 resources in the pallet.
 
 ![Lab03-add-volume-service-07](images/Lab03-add-volume-service-07.png)
 
