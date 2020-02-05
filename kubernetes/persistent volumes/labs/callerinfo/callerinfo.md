@@ -59,7 +59,7 @@ Click on the save button to save the configuration of the service
 
 callerinfo application is a restful microservice which stores **caller** information on the volume
 
-Locate the **Container** service in the palette.
+Locate the **Container** service from K8 resources in the palette.
 
 ![Lab03-add-volume-service-07](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-add-volume-service-07.png)
 
