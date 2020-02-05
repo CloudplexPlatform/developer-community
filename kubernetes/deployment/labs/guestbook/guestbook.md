@@ -159,7 +159,9 @@ Click on the save button to save the configuration of the service
 
 ### Configure Frontend Service
 
-Select the service to open configuration of the service on the right side of the window
+Drag another **Container** service from palette as done in the previous steps and drop it on canvas. 
+
+Select this service to open configuration of the service on the right side of the window
 
 ![lab02-configure-service-23](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/deployment/labs/guestbook/images/lab02-configure-service-23.png)
 

@@ -80,7 +80,7 @@ Select the service to open configuration of the service on the right side of the
 
    ![Lab03-contianer-serivce-configuraion-03](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-contianer-serivce-configuraion-03.png)
 
-3. Enter tag of the image **v1**
+3. Enter tag of the image **v3**
 
    ![Lab03-contianer-serivce-configuraion-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-contianer-serivce-configuraion-04.png)
 
@@ -96,8 +96,8 @@ Click on Advanced Configurations then select Configure Volume Containers section
 ![Lab03-contianer-serivce-configuraion-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-contianer-serivce-configuraion-05.png)
 
 
-Click on **Configure Volume Containers** then select your volume and provide mount path
-** **/caller-data** is the volume mount path
+Click on **Add Volume** then select your volume and provide mount path.
+**"/caller-data"** is the volume mount path.
 
 ![Lab03-contianer-serivce-configuraion-06](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-contianer-serivce-configuraion-06.png)
 
