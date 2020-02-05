@@ -80,7 +80,7 @@ Select the service to open configuration of the service on the right side of the
 
    ![Lab03-contianer-serivce-configuraion-03](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-contianer-serivce-configuraion-03.png)
 
-3. Enter tag of the image **v3**
+3. Enter tag of the image **3**
 
    ![Lab03-contianer-serivce-configuraion-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-contianer-serivce-configuraion-04.png)
 
