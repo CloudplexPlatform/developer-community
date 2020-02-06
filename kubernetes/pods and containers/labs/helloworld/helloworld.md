@@ -20,7 +20,7 @@ CloudPlex platform gives you the freedom of choosing you any cloud provider amon
 
 You have to provide your selected cloud credentials in order to further continue this lab. There are fields under each cloud provider tab, fill them out.
 
-Click on **next** button on top right corner.
+Click on the **next** button on the top right corner.
 
 ### Add Service
 
