@@ -47,7 +47,7 @@ Select Volume type specific to your selected cloud.
 
 ![Lab03-add-volume-service-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-add-volume-service-04.png)
 
-Type volume size **1** in the size text field
+Type volume size **4** in the size text field
 
 ![Lab03-add-volume-service-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-add-volume-service-05.png)
 
