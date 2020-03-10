@@ -1,0 +1,6 @@
+{
+    "title": "HostFet Application",
+    "description": "Deploy Volume and HostFet application with Statefulset",
+    "complexity":"intermediate",
+    "time":"00:30:00"
+  }
