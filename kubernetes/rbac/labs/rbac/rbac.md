@@ -62,15 +62,15 @@ container Port : 3550
 
 Click on the Advanced Configurations to open Advanced Configurations
 
-![Lab05-rbac-options-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-rbac-options-01)
+![Lab05-rbac-options-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-rbac-options-01.png)
 
 Select Rbac option to configure rbac rules
 
-![Lab05-rbac-options-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-rbac-options-02)
+![Lab05-rbac-options-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-rbac-options-02.png)
 
 Enable the rbac button 
 
-![Lab05-rbac-options-03](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-rbac-options-03)
+![Lab05-rbac-options-03](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-rbac-options-03.png)
 
 Click on Add resource based roles
 
@@ -78,7 +78,7 @@ Click on Add resource based roles
 Resource: Secrets
 Action: List 
 ```
-![Lab05-rbac-options-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab5-rbac-options-04)
+![Lab05-rbac-options-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab5-rbac-options-04.png)
 
 
 Click on the back button on top of the configurations.
