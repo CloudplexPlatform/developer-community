@@ -13,7 +13,7 @@ RbacFet application is a restful microservice which will return **Rbac permissio
 
 Locate the **Container** services from K8 resources in the pallet.
 
-![Lab05-container-service-configuration-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-container-service-configuration-01)
+![Lab05-container-service-configuration-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-container-service-configuration-01.png)
 
 Drag-n-drop **container** service from pallet to canvas
 
@@ -53,7 +53,7 @@ container Port : 3550
 
 Click on the back button on top of the configurations.
 
-![lab02-configure-service-21](E:/Platalytics/Cloudplex V2/Cloudplex Community/Labs/stingray/lab02-guestbook-deployment/images/lab02-configure-service-21.png)
+![lab02-configure-service-21](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/deployment/labs/guestbook/images/lab02-configure-service-21.png)
 
 #### Enable Ingress Traffic
 

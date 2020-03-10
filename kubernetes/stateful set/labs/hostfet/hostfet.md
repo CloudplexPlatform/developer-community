@@ -108,7 +108,7 @@ Cloudplex provides two types of variables (**Static, Dynamic**). Let's add a sta
 Key : DIR_PATH
 Value : /caller-data
 ```
-** **/caller-data** is the volume mount path
+**/caller-data** is the volume mount path
 
 
 ![Lab03-contianer-serivce-configuraion-08](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-contianer-serivce-configuraion-08.png)
