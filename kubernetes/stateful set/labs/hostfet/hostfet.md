@@ -132,7 +132,7 @@ container Port : 3550
 
 Click on the back button on top of the configurations.
 
-![lab02-configure-service-21](E:/Platalytics/Cloudplex V2/Cloudplex Community/Labs/stingray/lab02-guestbook-deployment/images/lab02-configure-service-21.png)
+![lab02-configure-service-21](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/deployment/labs/guestbook/images/lab02-configure-service-21.png)
 
 
 #### Enable Ingress Traffic
