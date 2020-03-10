@@ -2,14 +2,15 @@
 
 Deploy Volume and HostFet application with Statefulset.
 
-#### Before you begin
+### Relevant Material
 
-- Create [Cloudplex platform](https://app.cloudplex.io/register) account
-- Read [Tutorial](cloudplex.io/tutorials/deployment) of the lab
+[Tutorial]()
+
+[Video]()
 
 #### Code Repository
 
-https://github.com/cloudplex-io/callerinfo-sample-app
+https://github.com/CloudplexPlatform/hostname-app
 
 #### Add Volume Service
 

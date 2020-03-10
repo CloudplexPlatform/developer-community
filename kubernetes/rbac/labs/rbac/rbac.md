@@ -2,14 +2,15 @@
 
 A sample application which will return permissions of Secrets are allowed.
 
-#### Before you begin
+### Relevant Material
 
-- Create [Cloudplex platform](https://app.cloudplex.io/register) account
-- Read [Tutorial](cloudplex.io/tutorials/deployment) of the lab
+[Tutorial]()
+
+[Video]()
 
 #### Code Repository
 
-https://github.com/cloudplex-io/k8s-rbac-sample-app
+https://github.com/CloudplexPlatform/k8s-rbac-sample-app
 
 #### Add RbacFet Service
 
