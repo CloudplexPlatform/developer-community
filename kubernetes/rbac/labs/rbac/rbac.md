@@ -1,3 +1,7 @@
+### Objective
+
+A sample application which will return permissions of Secrets are allowed.
+
 #### Before you begin
 
 - Create [Cloudplex platform](https://app.cloudplex.io/register) account

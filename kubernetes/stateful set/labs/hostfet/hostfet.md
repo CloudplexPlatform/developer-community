@@ -1,3 +1,7 @@
+### Objective
+
+Deploy Volume and HostFet application with Statefulset.
+
 #### Before you begin
 
 - Create [Cloudplex platform](https://app.cloudplex.io/register) account
