@@ -54,7 +54,7 @@
         },
         "stateful set": {
             "labs": {
-                "hostfet": {
+                "hostname": {
                     "title": "Hostname Application Lab",
                     "description": "Deploy Volume and Hostname application with Statefulset",
                     "complexity": "intermediate",
