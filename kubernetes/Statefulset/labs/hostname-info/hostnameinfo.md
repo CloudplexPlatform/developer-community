@@ -1,6 +1,6 @@
 ### Objective
 
-This lab is to familiarize you with Kubernetes Statefulset , which will return the hostname of the running .
+This lab is to familiarize you with Kubernetes Statefulset , which will return the hostname of the running Pod.
 
 ### Before you begin
 
