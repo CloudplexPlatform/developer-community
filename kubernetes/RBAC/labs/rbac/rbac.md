@@ -1,20 +1,19 @@
 ### Objective
 
-A sample application which will return permissions of Secrets are allowed.
+This lab is to familiarize you with Kubernetes RBAC and how to grant permissions to your microservice
 
-### Relevant Material
+### Before you begin
 
-[Tutorial]()
-
-[Video]()
+- Create [Cloudplex platform](https://app.cloudplex.io/register) account
+- Read [Tutorial](cloudplex.io/tutorials/deployment) of the lab
 
 ### Code Repository
 
 https://github.com/CloudplexPlatform/k8s-rbac-sample-app
 
-### Add RbacFet Service
+### Add k8s-rbac Service
 
-RbacFet application is a restful microservice which will return **Rbac permissions** of the Kubernetes Secret object
+In this application we are going to learn how we can grant permissions to kubernetes Resources using RBAC access controls
 
 Locate the **Container** services from K8 resources in the pallet.
 
@@ -28,37 +27,30 @@ Select the service to open configuration of the service on the right side of the
 
 ![Lab05-container-service-configuration-03](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-container-service-configuration-03.png)
 
-1. Change name of the service to **rbacfet**
+1. Change name of the service to **k8s-rbac**
 
-   ![Lab05-container-service-configuration-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-container-service-configuration-04.png)
+   ![Lab05-container-service-configuration-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-container-service-configuration-10.png)
 
 
-2. Enter the image name **cloudplexng/rbacfet**
+2. Enter the image name **cloudplexng/k8s-rbac**
 
-   ![Lab05-container-service-configuration-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-container-service-configuration-05.png)
+   ![Lab05-container-service-configuration-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-container-service-configuration-11.png)
 
 4. Enter tag of the image **v1**
 
    ![Lab05-container-service-configuration-06](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-container-service-configuration-06.png)
 
-#### Add new Port
-
-[Ports](https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/#the-kubernetes-model-for-connecting-containers) are required to access your applications. Click on the **Port section** to add a new port
-
-![Lab05-container-service-configuration-07](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-container-service-configuration-07.png)
-
-Click on Add ports button to add a new port
-
-```yaml
-name : http-3550
-container Port : 3550
-```
-![Lab05-container-service-configuration-08](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-container-service-configuration-08.png)
-
 
 #### Add RBAC permissions
 
-[RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/) provide authroization and authentication access to resources
+[RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/) is a method of regulating access to computer or network resources based on the roles of individual users within an enterprise.
+
+In RBAC, a [Role](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#role-and-clusterrole) contain rules that represent a set of permissions. A **Role** can be defined within a namespace or cluster-wide with a **ClusterRole**.
+
+A [RoleBinding](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#rolebinding-and-clusterrolebinding) grants permissions defined in a role to a list of subjects(users, groups, or service accounts). Permissions can be granted within a namespace with a **RoleBinding**, or cluster-wide with a **ClusterRoleBinding**.
+
+A [ServiceAccount](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/) provides an identity for processes that run in a Pod.
+
 
 Click on the Advanced Configurations to open Advanced Configurations
 
@@ -80,10 +72,26 @@ Action: List
 ```
 ![Lab05-rbac-options-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab5-rbac-options-04)
 
+It will create the **Role**, **RoleBinding**, and **ServiceAccount**
+
 
 Click on the back button on top of the configurations.
 
 ![lab02-configure-service-21](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/deployment/labs/guestbook/images/lab02-configure-service-21.png)
+
+#### Add new Port
+
+[Ports](https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/#the-kubernetes-model-for-connecting-containers) are required to access your applications. Click on the **Port section** to add a new port
+
+![Lab05-container-service-configuration-07](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-container-service-configuration-07.png)
+
+Click on Add ports button to add a new port
+
+```yaml
+name : http-3550
+container Port : 3550
+```
+![Lab05-container-service-configuration-08](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/rbac/labs/rbac/images/Lab05-container-service-configuration-08.png)
 
 ### Enable Ingress Traffic
 
@@ -133,8 +141,6 @@ Create a new request to see the permissions on the resource.
 Request Type: GET
 Request Endpoint: <Ingress IP>/permissions
 ```
-
-
 
 ### Cleanup
 

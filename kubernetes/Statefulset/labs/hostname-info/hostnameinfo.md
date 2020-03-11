@@ -1,3 +1,7 @@
+### Objective
+
+This lab is to familiarize you with Kubernetes Statefulset , which will return the hostname of the running .
+
 ### Before you begin
 
 - Create [Cloudplex platform](https://app.cloudplex.io/register) account
@@ -5,13 +9,13 @@
 
 ### Code Repository
 
-https://github.com/cloudplex-io/callerinfo-sample-app
+https://github.com/CloudplexPlatform/hostname-app
 
 ### Add Volume Service
 
 A [PersistentVolume](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) (PV) is a piece of storage in the cluster that has been dynamically provisioned by Kubernetes using a [StorageClass](https://kubernetes.io/docs/concepts/storage/storage-classes).
 
-HostFet application required persistent volume to store **caller** information
+Hostname-Info application required persistent volume to store **caller** information
 
 Lets drop a volume service on canvas which will create **Storage Class**, **Persistent Volume Claim**, and **Persistent Volume** 
 
@@ -39,9 +43,11 @@ Click on the save button to save the configuration of the service
 
 ![Lab03-add-volume-service-06](images/Lab03-add-volume-service-06.png)
 
-### Add hostfet Service
+### Add hostname-info Service
 
-HostFet application is a restful microservice which stores **caller** information on the volume and return Hostname
+*statefulset definition
+
+Hostname-Info application is a restful microservice which will return Hostname information
 
 Locate the **Container** services from K8 resources in the pallet.
 
@@ -55,25 +61,25 @@ Select the service to open configuration of the service on the right side of the
 
 ![Lab03-contianer-serivce-configuraion-01](images/Lab03-contianer-serivce-configuraion-01.png)
 
-1. Change name of the service to **hostfet**
+1. Change name of the service to **hostname-info**
 
-   ![Lab03-contianer-serivce-configuraion-02](images/Lab03-contianer-serivce-configuraion-02.png)
+   ![Lab03-contianer-serivce-configuraion-02](images/Lab03-container-service-configuration-02.png)
 
 2. Select **Statefulset** from the type dropdown
 
-   ![Lab03-statefulset-option](images/Lab03-statefulset.png)
+   ![Lab03-container-service-configuration-03](images/Lab03-container-service-configuration-03.png)
 
-3. Enter the image name **cloudplexng/hostfet**
+3. Enter the image name **cloudplexng/hostname-info**
 
-   ![Lab03-contianer-serivce-configuraion-03](images/Lab03-contianer-serivce-configuraion-03.png)
+   ![Lab03-container-service-configuration-05](images/Lab03-container-service-configuration-05.png)
 
 4. Enter tag of the image **v1**
 
-   ![Lab03-contianer-serivce-configuraion-04](images/Lab03-contianer-serivce-configuraion-04.png)
+   ![Lab03-container-service-configuration-04](images/Lab03-container-service-configuration-04.png)
 
 5. Increase the number of replicas to **2**
 
-   ![Lab03-replicas](images/Lab03-replicas.png)
+   ![Lab03-container-service-configuration-06](images/Lab03-container-service-configuration-06.png)
 
 
 **Mount Volume**
