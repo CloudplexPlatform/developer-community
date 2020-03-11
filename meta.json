@@ -42,10 +42,10 @@
                 }
             }
         },
-        "rbac": {
+        "kubernetes RBAC": {
             "labs": {
                 "rbac": {
-                    "title": "RbacFet Application",
+                    "title": "Kubernetes RBAC Application Lab",
                     "description": "A sample application which will return permissions of Secrets are allowed",
                     "complexity": "intermediate",
                     "time": "00:40:00"
@@ -55,8 +55,8 @@
         "stateful set": {
             "labs": {
                 "hostfet": {
-                    "title": "HostFet Application",
-                    "description": "Deploy Volume and HostFet application with Statefulset",
+                    "title": "Hostname Info Application Lab",
+                    "description": "Deploy Volume and Hostname Info application with Statefulset",
                     "complexity": "intermediate",
                     "time": "00:30:00"
                 }
