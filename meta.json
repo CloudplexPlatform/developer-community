@@ -42,7 +42,7 @@
                 }
             }
         },
-        "kubernetes rbac": {
+        "kubernetes RBAC": {
             "labs": {
                 "rbac": {
                     "title": "Kubernetes RBAC Application Lab",
@@ -56,7 +56,7 @@
             "labs": {
                 "hostfet": {
                     "title": "Hostname Info Application Lab",
-                    "description": "Deploy Volume and HostFet application with Statefulset",
+                    "description": "Deploy Volume and Hostname Info application with Statefulset",
                     "complexity": "intermediate",
                     "time": "00:30:00"
                 }

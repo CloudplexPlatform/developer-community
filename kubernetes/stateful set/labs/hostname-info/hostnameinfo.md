@@ -45,7 +45,7 @@ Click on the save button to save the configuration of the service
 
 ### Add hostname-info Service
 
-*statefulset definition
+[Statefulset](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/) is the workload API object used to manage stateful applications.
 
 Hostname-Info application is a restful microservice which will return Hostname information
 
