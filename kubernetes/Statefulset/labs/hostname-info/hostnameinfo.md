@@ -21,27 +21,27 @@ Lets drop a volume service on canvas which will create **Storage Class**, **Pers
 
 Locate the **Volume** services in the pallet.
 
-![Lab03-add-volume-service-01](images/Lab03-add-volume-service-01.png)
+![Lab03-add-volume-service-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-add-volume-service-01.png)
 
 Drag-n-drop volume service from pallet to canvas
 
-![Lab03-add-volume-service-02](images/Lab03-add-volume-service-02.png)
+![Lab03-add-volume-service-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-add-volume-service-02.png)
 
 Type namespace **default** of the service
 
-![Lab03-add-volume-service-03](images/Lab03-add-volume-service-03.png)
+![Lab03-add-volume-service-03](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-add-volume-service-03.png)
 
 Select Volume type **gp2** of the service
 
-![Lab03-add-volume-service-04](images/Lab03-add-volume-service-04.png)
+![Lab03-add-volume-service-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-add-volume-service-04.png)
 
 Type volume size **1** in the size text field
 
-![Lab03-add-volume-service-05](images/Lab03-add-volume-service-05.png)
+![Lab03-add-volume-service-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-add-volume-service-05.png)
 
 Click on the save button to save the configuration of the service
 
-![Lab03-add-volume-service-06](images/Lab03-add-volume-service-06.png)
+![Lab03-add-volume-service-06](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-add-volume-service-06.png)
 
 ### Add hostname-info Service
 
@@ -51,15 +51,15 @@ Hostname-Info application is a restful microservice which will return Hostname i
 
 Locate the **Container** services from K8 resources in the pallet.
 
-![Lab03-add-volume-service-07](images/Lab03-add-volume-service-07.png)
+![Lab03-add-volume-service-07](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-add-volume-service-07.png)
 
 Drag-n-drop **container** service from pallet to canvas
 
-![Lab03-add-volume-service-08](images/Lab03-add-volume-service-08.png)
+![Lab03-add-volume-service-08](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-add-volume-service-08.png)
 
 Select the service to open configuration of the service on the right side of the window
 
-![Lab03-contianer-serivce-configuraion-01](images/Lab03-contianer-serivce-configuraion-01.png)
+![Lab03-contianer-serivce-configuraion-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-contianer-serivce-configuraion-01.png)
 
 1. Change name of the service to **hostname-info**
 
@@ -90,11 +90,11 @@ Lets select the volume which we have added on the canvas and provide the mount p
 
 Click on configure volume container section
 
-![Lab03-contianer-serivce-configuraion-05](images/Lab03-contianer-serivce-configuraion-05.png)
+![Lab03-contianer-serivce-configuraion-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-contianer-serivce-configuraion-05.png)
 
 Select your volume and type mount path
 
-![Lab03-contianer-serivce-configuraion-06](images/Lab03-contianer-serivce-configuraion-06.png)
+![Lab03-contianer-serivce-configuraion-06](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-contianer-serivce-configuraion-06.png)
 
 Click on the back button on top of the configurations.
 
@@ -104,7 +104,7 @@ Click on the back button on top of the configurations.
 
 Click on the **Environment variables section** to add a new [environment variable](https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/#define-an-environment-variable-for-a-container).
 
-![Lab03-contianer-serivce-configuraion-07](images/Lab03-contianer-serivce-configuraion-07.png)
+![Lab03-contianer-serivce-configuraion-07](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-contianer-serivce-configuraion-07.png)
 
 
 
@@ -117,7 +117,7 @@ Value : /caller-data
 ** **/caller-data** is the volume mount path
 
 
-![Lab03-contianer-serivce-configuraion-08](images/Lab03-contianer-serivce-configuraion-08.png)
+![Lab03-contianer-serivce-configuraion-08](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-contianer-serivce-configuraion-08.png)
 
 Click on the back button on top of the configurations.
 
@@ -125,7 +125,7 @@ Click on the back button on top of the configurations.
 
 [Ports](https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/#the-kubernetes-model-for-connecting-containers) are required to access your applications. Click on the **Port section** to add a new port
 
-![Lab03-contianer-serivce-configuraion-09](images/Lab03-contianer-serivce-configuraion-09.png)
+![Lab03-contianer-serivce-configuraion-09](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-contianer-serivce-configuraion-09.png)
 
 Click on Add ports button to add a new port
 
@@ -134,18 +134,18 @@ name : http-3550
 container Port : 3550
 ```
 
-![Lab03-contianer-serivce-configuraion-10](images/Lab03-contianer-serivce-configuraion-10.png)
+![Lab03-contianer-serivce-configuraion-10](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-contianer-serivce-configuraion-10.png)
 
 Click on the back button on top of the configurations.
 
-![lab02-configure-service-21](E:/Platalytics/Cloudplex V2/Cloudplex Community/Labs/stingray/lab02-guestbook-deployment/images/lab02-configure-service-21.png)
+![lab02-configure-service-21](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/guestbook/images/lab02-configure-service-21.png)
 
 
 ### Enable Ingress Traffic
 
 ​[Ingress gateway](https://istio.io/docs/tasks/traffic-management/ingress/ingress-control/) will allow you to access service from the internet. Click on the Ingress section to enable ingress traffic.
 
-![Lab03-contianer-serivce-configuraion-11](images/Lab03-contianer-serivce-configuraion-11.png)
+![Lab03-contianer-serivce-configuraion-11](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-contianer-serivce-configuraion-11.png)
 
 Click on the back button on top of the configurations.
 
@@ -157,7 +157,7 @@ Click on the save button to save the configuration of the service
 
 Click on the **Save** button at the bottom right corner
 
-![Lab03-application-01](images/Lab03-application-01.png)
+![Lab03-application-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-application-01.png)
 
 
 
@@ -167,7 +167,7 @@ In the log window, you can see the logs of your infrastructure, Kubernetes Clust
 
 **!! Deployment will take around 15 minutes!!** 
 
-![Lab03-Deployment-Logs-01](images/Lab03-Deployment-Logs-01.png)
+![Lab03-Deployment-Logs-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-Deployment-Logs-01.png)
 
 
 
@@ -175,7 +175,7 @@ In the log window, you can see the logs of your infrastructure, Kubernetes Clust
 
 Click on the App to get Ingress gateway Endpoint
 
-![Lab03-Ingress-Endpoint-01](images/Lab03-Ingress-Endpoint-01.png)
+![Lab03-Ingress-Endpoint-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostfet/images/Lab03-Ingress-Endpoint-01.png)
 
 
 Copy Ingress Endpoint and Paste in browser new Tab. 
