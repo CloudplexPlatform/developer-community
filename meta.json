@@ -42,7 +42,7 @@
                 }
             }
         },
-        "Kubernetes rbac": {
+        "kubernetes rbac": {
             "labs": {
                 "rbac": {
                     "title": "Kubernetes RBAC Application Lab",
