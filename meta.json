@@ -46,7 +46,7 @@
             "labs": {
                 "rbac": {
                     "title": "Kubernetes RBAC Application Lab",
-                    "description": "A sample application which will return permissions of Secrets are allowed",
+                    "description": "This lab is to familiarize you with Kubernetes RBAC and how to grant permissions to your microservice",
                     "complexity": "intermediate",
                     "time": "00:40:00"
                 }

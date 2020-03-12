@@ -13,7 +13,7 @@ https://github.com/CloudplexPlatform/k8s-rbac-sample-app
 
 ### Add k8s-rbac Service
 
-Kubernetes RBAC application is a microservice which will return the permissions of Kubernetes Secret Object allowed to access in your container
+Kubernetes RBAC application is a microservice which will return the permissions of Kubernetes Secret Object in your container
 
 Locate the **Container** services from K8 resources in the pallet.
 
