@@ -137,9 +137,7 @@ container Port : 3550
 
 ![Lab04-contianer-serivce-configuraion-10](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-contianer-serivce-configuraion-10.png)
 
-Click on the back button on top of the configurations.
-
-![lab02-configure-service-21](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/guestbook/images/lab02-configure-service-21.png)
+Click on the back button on top of the ports.
 
 
 ### Enable Ingress Traffic
