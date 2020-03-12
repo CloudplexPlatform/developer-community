@@ -85,13 +85,13 @@ Select the service to open configuration of the service on the right side of the
 
    ![Lab04-container-service-configuration-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-container-service-configuration-05.png)
 
-4. Enter tag of the image **v1**
-
-   ![Lab04-container-service-configuration-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-container-service-configuration-04.png)
-
-5. Increase the number of replicas to **2**
+4. Increase the number of replicas to **2**
 
    ![Lab04-container-service-configuration-06](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-container-service-configuration-06.png)
+
+5. Enter tag of the image **v1**
+
+   ![Lab04-container-service-configuration-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-container-service-configuration-04.png)
 
 
 **Mount Volume**
