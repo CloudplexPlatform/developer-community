@@ -57,11 +57,11 @@ Click on the Advanced Configurations to open Advanced Configurations
 
 ![Lab05-rbac-options-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-rbac-options-01.png)
 
-Select Rbac option to configure rbac rules
+Select RBAC option to configure RBAC rules
 
 ![Lab05-rbac-options-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-rbac-options-02.png)
 
-Enable the rbac button 
+Enable the RBAC button 
 
 ![Lab05-rbac-options-03](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-rbac-options-03.png)
 
