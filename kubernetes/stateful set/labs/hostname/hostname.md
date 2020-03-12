@@ -2,10 +2,11 @@
 
 This lab is to familiarize you with Kubernetes Statefulset , which will return the hostname of the running Pod.
 
-### Before you begin
+### Relevant Material
 
-- Create [Cloudplex platform](https://app.cloudplex.io/register) account
-- Read [Tutorial](cloudplex.io/tutorials/deployment) of the lab
+[Tutorial]()
+
+[Video]()
 
 ### Code Repository
 
@@ -100,7 +101,7 @@ Click on the back button on top of the configurations.
 
 
 
-#### Add new Environment Variable
+### Add new Environment Variable
 
 Click on the **Environment variables section** to add a new [environment variable](https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/#define-an-environment-variable-for-a-container).
 
@@ -121,7 +122,7 @@ Value : /caller-data
 
 Click on the back button on top of the configurations.
 
-#### Add new Port
+### Add new Port
 
 [Ports](https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/#the-kubernetes-model-for-connecting-containers) are required to access your applications. Click on the **Port section** to add a new port
 
@@ -155,7 +156,7 @@ Click on the save button to save the configuration of the service
 
 ### Save Application
 
-Click on the **Save** button at the bottom right corner
+Click on the **Save** button at the top right corner
 
 ![Lab04-application-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-application-01.png)
 

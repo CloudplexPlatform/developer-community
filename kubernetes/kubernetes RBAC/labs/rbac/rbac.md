@@ -2,10 +2,11 @@
 
 This lab is to familiarize you with Kubernetes RBAC and how to grant permissions to your microservice
 
-### Before you begin
+### Relevant Material
 
-- Create [Cloudplex platform](https://app.cloudplex.io/register) account
-- Read [Tutorial](cloudplex.io/tutorials/deployment) of the lab
+[Tutorial]()
+
+[Video]()
 
 ### Code Repository
 
@@ -17,31 +18,31 @@ Kubernetes RBAC application is a microservice which will return the permissions 
 
 Locate the **Container** services from K8 resources in the pallet.
 
-![Lab05-container-service-configuration-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes20%RBAC/labs/rbac/images/Lab05-container-service-configuration-01.png)
+![Lab05-container-service-configuration-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-container-service-configuration-01.png)
 
 Drag-n-drop **container** service from pallet to canvas
 
-![Lab05-container-service-configuration-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes20%RBAC/labs/rbac/images/Lab05-container-service-configuration-02.png)
+![Lab05-container-service-configuration-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-container-service-configuration-02.png)
 
 Select the service to open configuration of the service on the right side of the window
 
-![Lab05-container-service-configuration-03](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes20%RBAC/labs/kubernetes20%rbac/images/Lab05-container-service-configuration-03.png)
+![Lab05-container-service-configuration-03](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-container-service-configuration-03.png)
 
 1. Change name of the service to **k8s-rbac**
 
-   ![Lab05-container-service-configuration-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes20%RBAC/labs/rbac/images/Lab05-container-service-configuration-10.png)
+   ![Lab05-container-service-configuration-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-container-service-configuration-10.png)
 
 
 2. Enter the image name **cloudplexng/k8s-rbac**
 
-   ![Lab05-container-service-configuration-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes20%RBAC/labs/rbac/images/Lab05-container-service-configuration-11.png)
+   ![Lab05-container-service-configuration-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-container-service-configuration-11.png)
 
 4. Enter tag of the image **v1**
 
-   ![Lab05-container-service-configuration-06](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes20%RBAC/labs/rbac/images/Lab05-container-service-configuration-06.png)
+   ![Lab05-container-service-configuration-06](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-container-service-configuration-06.png)
 
 
-#### Add RBAC permissions
+### Add RBAC permissions
 
 [RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/) is a method of regulating access to computer or network resources based on the roles of individual users within an enterprise.
 
@@ -54,15 +55,15 @@ A [ServiceAccount](https://kubernetes.io/docs/tasks/configure-pod-container/conf
 
 Click on the Advanced Configurations to open Advanced Configurations
 
-![Lab05-rbac-options-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes20%RBAC/labs/rbac/images/Lab05-rbac-options-01)
+![Lab05-rbac-options-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-rbac-options-01)
 
 Select Rbac option to configure rbac rules
 
-![Lab05-rbac-options-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes20%RBAC/labs/rbac/images/Lab05-rbac-options-02)
+![Lab05-rbac-options-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-rbac-options-02)
 
 Enable the rbac button 
 
-![Lab05-rbac-options-03](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes20%RBAC/labs/rbac/images/Lab05-rbac-options-03)
+![Lab05-rbac-options-03](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-rbac-options-03)
 
 Click on Add resource based roles
 
@@ -70,20 +71,20 @@ Click on Add resource based roles
 Resource: Secrets
 Action: List 
 ```
-![Lab05-rbac-options-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes20%RBAC/labs/rbac/images/Lab5-rbac-options-04)
+![Lab05-rbac-options-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab5-rbac-options-04)
 
 It will create the **Role**, **RoleBinding**, and **ServiceAccount**
 
 
 Click on the back button on top of the configurations.
 
-![Lab05-container-service-configuration](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes20%RBAC/labs/rbac/images/Lab05-container-service-configuration.png)
+![Lab05-container-service-configuration](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-container-service-configuration.png)
 
-#### Add new Port
+### Add new Port
 
 [Ports](https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/#the-kubernetes-model-for-connecting-containers) are required to access your applications. Click on the **Port section** to add a new port
 
-![Lab05-container-service-configuration-07](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes20%RBAC/labs/rbac/images/Lab05-container-service-configuration-07.png)
+![Lab05-container-service-configuration-07](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-container-service-configuration-07.png)
 
 Click on Add ports button to add a new port
 
@@ -91,25 +92,25 @@ Click on Add ports button to add a new port
 name : http-3550
 container Port : 3550
 ```
-![Lab05-container-service-configuration-08](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes20%RBAC/labs/rbac/images/Lab05-container-service-configuration-08.png)
+![Lab05-container-service-configuration-08](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-container-service-configuration-08.png)
 
 ### Enable Ingress Traffic
 
 ​[Ingress gateway](https://istio.io/docs/tasks/traffic-management/ingress/ingress-control/) will allow you to access service from the internet. Click on the Ingress section to enable ingress traffic.
 
-![Lab05-container-service-configuration-09](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes20%RBAC/labs/rbac/images/Lab05-container-service-configuration-09.png)
+![Lab05-container-service-configuration-09](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-container-service-configuration-09.png)
 
 Click on the back button on top of the configurations.
 
-##### Save Service
+### Save Service
 
 Click on the save button to save the configuration of the service
 
 ### Save Application
 
-Click on the **Save** button at the bottom right corner
+Click on the **Save** button at the top right corner
 
-![Lab05-application-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes20%RBAC/labs/rbac/images/Lab05-application-01.png)
+![Lab05-application-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-application-01.png)
 
 
 
@@ -119,7 +120,7 @@ In the log window, you can see the logs of your infrastructure, Kubernetes Clust
 
 **!! Deployment will take around 15 minutes!!** 
 
-![Lab05-Deployment-Logs-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes20%RBAC/labs/rbac/images/Lab05-Deployment-Logs-01.png)
+![Lab05-Deployment-Logs-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-Deployment-Logs-01.png)
 
 
 
@@ -127,7 +128,7 @@ In the log window, you can see the logs of your infrastructure, Kubernetes Clust
 
 Click on the App to get Ingress gateway Endpoint
 
-![Lab05-Ingress-Endpoint-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes20%RBAC/labs/rbac/images/Lab05-Ingress-Endpoint-01.png)
+![Lab05-Ingress-Endpoint-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-Ingress-Endpoint-01.png)
 
 
 
