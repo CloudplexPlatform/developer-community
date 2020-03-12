@@ -107,11 +107,6 @@ Click on Advanced Configurations then select Configure Volume Containers section
 Click on **Add Volume** then select your volume and provide mount path.
 **"/caller-data"** is the volume mount path.
 
-![Lab04-contianer-serivce-configuraion-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-contianer-serivce-configuraion-05.png)
-
-Click on **Add Volume** then select your volume and provide mount path.
-**"/caller-data"** is the volume mount path.
-
 ![Lab04-contianer-serivce-configuraion-06](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-contianer-serivce-configuraion-06.png)
 
 Click on the back button on top of the configurations.
@@ -132,7 +127,6 @@ Cloudplex provides two types of variables (**Static, Dynamic**). Let's add a sta
 Key : DIR_PATH
 Value : /caller-data
 ```
-** **/caller-data** is the volume mount path
 
 
 ![Lab04-contianer-serivce-configuraion-08](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-contianer-serivce-configuraion-08.png)
