@@ -12,6 +12,17 @@ This lab is to familiarize you with Kubernetes RBAC and how to grant permissions
 
 https://github.com/CloudplexPlatform/k8s-rbac-sample-app
 
+### Cloud Provider
+
+CloudPlex platform gives you the freedom of choosing you any cloud provider among these four (AWS, AZURE, GCP and DO). Please select any of them to proceed.
+
+### Cloud Profile Credentials
+
+You have to provide your selected cloud credentials in order to further continue this lab. There are fields under each cloud provider tab, fill them out.
+
+Click on the **next** button on the top right corner.
+
+
 ### Add k8s-rbac Service
 
 Kubernetes RBAC application is a microservice which will return the permissions of Kubernetes Secret Object in your container
@@ -20,7 +31,7 @@ Locate the **Container** services from K8 resources in the pallet.
 
 ![Lab05-container-service-configuration-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-container-service-configuration-01.png)
 
-Drag-n-drop **container** service from pallet to canvas
+Drag **container** service from palette and drop it on canvas
 
 ![Lab05-container-service-configuration-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-container-service-configuration-02.png)
 
@@ -86,7 +97,7 @@ Click on the back button on top of the configurations.
 
 ![Lab05-container-service-configuration-07](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-container-service-configuration-07.png)
 
-Click on Add ports button to add a new port
+Click on Add ports button to add a new ports
 
 ```yaml
 name : http-3550
@@ -94,13 +105,15 @@ container Port : 3550
 ```
 ![Lab05-container-service-configuration-08](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-container-service-configuration-08.png)
 
+Click on the back button on top of the configurations
+
 ### Enable Ingress Traffic
 
 ​[Ingress gateway](https://istio.io/docs/tasks/traffic-management/ingress/ingress-control/) will allow you to access service from the internet. Click on the Ingress section to enable ingress traffic.
 
 ![Lab05-container-service-configuration-09](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-container-service-configuration-09.png)
 
-Click on the back button on top of the configurations.
+Click on the back button on top of the configurations
 
 ### Save Service
 

@@ -95,7 +95,6 @@ Click on Advanced Configurations then select Configure Volume Containers section
 
 ![Lab03-contianer-serivce-configuraion-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-contianer-serivce-configuraion-05.png)
 
-
 Click on **Add Volume** then select your volume and provide mount path.
 **"/caller-data"** is the volume mount path.
 

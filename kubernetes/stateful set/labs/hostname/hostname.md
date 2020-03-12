@@ -12,6 +12,17 @@ This lab is to familiarize you with Kubernetes Statefulset , which will return t
 
 https://github.com/CloudplexPlatform/hostname-app
 
+### Cloud Provider
+
+CloudPlex platform gives you the freedom of choosing you any cloud provider among these four (AWS, AZURE, GCP and DO). Please select any of them to proceed.
+
+### Cloud Profile Credentials
+
+You have to provide your selected cloud credentials in order to further continue this lab. There are fields under each cloud provider tab, fill them out.
+
+Click on the **next** button on the top right corner.
+
+
 ### Add Volume Service
 
 A [PersistentVolume](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) (PV) is a piece of storage in the cluster that has been dynamically provisioned by Kubernetes using a [StorageClass](https://kubernetes.io/docs/concepts/storage/storage-classes).
@@ -24,7 +35,7 @@ Locate the **Volume** services in the pallet.
 
 ![Lab04-add-volume-service-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-add-volume-service-01.png)
 
-Drag-n-drop volume service from pallet to canvas
+Drag volume service from palette and drop it on canvas
 
 ![Lab04-add-volume-service-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-add-volume-service-02.png)
 
@@ -32,7 +43,7 @@ Type namespace **default** of the service
 
 ![Lab04-add-volume-service-03](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-add-volume-service-03.png)
 
-Select Volume type **gp2** of the service
+Select Volume type specific to your selected cloud.
 
 ![Lab04-add-volume-service-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-add-volume-service-04.png)
 
@@ -89,11 +100,17 @@ All the volume will be available in **container service** which have dependency 
 
 Lets select the volume which we have added on the canvas and provide the mount path
 
-Click on configure volume container section
+Click on Advanced Configurations then select Configure Volume Containers section.
+
+![Lab04-advanced-configuration-button](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-advanced-configuration-button.png)
+
+Click on **Add Volume** then select your volume and provide mount path.
+**"/caller-data"** is the volume mount path.
 
 ![Lab04-contianer-serivce-configuraion-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-contianer-serivce-configuraion-05.png)
 
-Select your volume and type mount path
+Click on **Add Volume** then select your volume and provide mount path.
+**"/caller-data"** is the volume mount path.
 
 ![Lab04-contianer-serivce-configuraion-06](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-contianer-serivce-configuraion-06.png)
 
@@ -137,7 +154,9 @@ container Port : 3550
 
 ![Lab04-contianer-serivce-configuraion-10](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-contianer-serivce-configuraion-10.png)
 
-Click on the back button on top of the ports.
+Click on the back button on top of the configurations
+
+![Lab04-back-button](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-back-button.png)
 
 
 ### Enable Ingress Traffic
@@ -177,19 +196,11 @@ Click on the App to get Ingress gateway Endpoint
 ![Lab04-Ingress-Endpoint-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-Ingress-Endpoint-01.png)
 
 
-Copy Ingress Endpoint and Paste in browser new Tab. 
+Copy <Ingress IP>/hostname and Paste in browser new Tab. 
 
 Open Postman or any tool you preferred for APIs.
 
-
-Create a new request to see what information is stored on the disk.
-
-```yaml
-Request Type: GET
-Request Endpoint: <Ingress IP>/callerinfo
-```
-
-Create another request to see what is your hostname.
+Create a new request to see what is your hostname.
 
 ```yaml
 Request Type: GET
