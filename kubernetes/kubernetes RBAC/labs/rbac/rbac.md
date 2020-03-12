@@ -71,7 +71,7 @@ Click on Add resource based roles
 Resource: Secrets
 Action: List 
 ```
-![Lab05-rbac-options-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab5-rbac-options-04.png)
+![Lab05-rbac-options-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-rbac-options-04.png)
 
 It will create the **Role**, **RoleBinding**, and **ServiceAccount**
 
