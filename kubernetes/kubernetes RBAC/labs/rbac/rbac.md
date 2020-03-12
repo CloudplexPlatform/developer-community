@@ -144,8 +144,7 @@ Click on the App to get Ingress gateway Endpoint
 ![Lab05-Ingress-Endpoint-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-Ingress-Endpoint-01.png)
 
 
-
-Copy Ingress Endpoint and Paste in browser new Tab. 
+Copy ```<Ingress Endpoint>/permissions``` and Paste in browser new Tab. 
 
 Open Postman or any tool you preferred for APIs.
 

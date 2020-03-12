@@ -196,7 +196,7 @@ Click on the App to get Ingress gateway Endpoint
 ![Lab04-Ingress-Endpoint-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-Ingress-Endpoint-01.png)
 
 
-Copy <Ingress IP>/hostname and Paste in browser new Tab. 
+Copy ```<Ingress Endpoint>/hostname``` and Paste in browser new Tab.
 
 Open Postman or any tool you preferred for APIs.
 
