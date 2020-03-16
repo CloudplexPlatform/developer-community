@@ -191,6 +191,10 @@ Request Endpoint: <Ingress IP>/callerinfo
 
 Click  on send button to send the request and store caller information.
 
+![Lab03-browser-output-1](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-browser-output-1.png)
+
+You will get this screen by hitting that url.
+
 Create another request to see what information is stored on the disk.
 
 ```yaml
@@ -200,6 +204,9 @@ Request Endpoint: <Ingress IP>/callerinfo
 
 Click  on send button to send the request and you will see caller info of the requester
 
+![Lab03-browser-output-2](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/callerinfo/images/Lab03-browser-output-2.png)
+
+You will get this screen by hitting that url.
 
 ### Cleanup
 

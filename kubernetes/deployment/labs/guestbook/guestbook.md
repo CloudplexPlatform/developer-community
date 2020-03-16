@@ -266,6 +266,11 @@ Click on the App to get Ingress gateway Endpoint
 
 Copy Ingress Endpoint and Paste in browser new Tab. 
 
+### Expected Result
+
+You will get this screen by copying that ingress Endpoint in your browser
+
+![Lab02-browser-output](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/deployment/labs/guestbook/images/Lab02-browser-output.png)
 
 
 #### Cleanup

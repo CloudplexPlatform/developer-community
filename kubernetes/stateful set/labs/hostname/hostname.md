@@ -192,14 +192,15 @@ Click on the App to get Ingress gateway Endpoint
 
 Copy ```<Ingress Endpoint>/hostname``` and Paste in browser new Tab.
 
-Open Postman or any tool you preferred for APIs.
+### Expected Result
 
-Create a new request to see what is your hostname.
+You will get this screen by copying that ingress Endpoint in your browser
 
-```yaml
-Request Type: GET
-Request Endpoint: <Ingress Ip>/hostname
-```
+![Lab05-browser-output-1](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab05-browser-output-1.png)
+
+Now hit that link one more time in your browser.
+
+![Lab05-browser-output-2](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab05-browser-output-2.png)
 
 
 ### Cleanup
