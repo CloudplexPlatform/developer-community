@@ -84,6 +84,13 @@ Action: List
 ```
 ![Lab05-rbac-options-04](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-rbac-options-04.png)
 
+Click on Add API group button to add the API group 
+
+[API groups](https://kubernetes.io/docs/concepts/overview/kubernetes-api/#api-groups) are used to extend the Kubernetes API. The API group is specified in a REST path and in the apiVersion field of a serialized object.
+
+![Lab05-rbac-options-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-rbac-options-05.png)
+
+
 It will create the **Role**, **RoleBinding**, and **ServiceAccount**
 
 
