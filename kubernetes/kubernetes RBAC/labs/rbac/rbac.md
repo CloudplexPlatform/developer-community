@@ -86,12 +86,17 @@ Action: List
 
 Click on Add API group button to add the API group 
 
-[API groups](https://kubernetes.io/docs/concepts/overview/kubernetes-api/#api-groups) are used to extend the Kubernetes API. The API group is specified in a REST path and in the apiVersion field of a serialized object.
 
-![Lab05-rbac-options-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/rbac/images/Lab05-rbac-options-05.png)
+[API groups](https://kubernetes.io/docs/concepts/overview/kubernetes-api/#api-groups) are used to extend the Kubernetes API. We are using **"*"** as the The API group to which **Secrets** belong to. This is required by RBAC to properly set permissions for the **Secret** object of the specified API Group.
 
+![Lab05-rbac-options-05](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/kubernetes%20RBAC/labs/
+rbac/images/Lab05-rbac-options-05.png)
 
-It will create the **Role**, **RoleBinding**, and **ServiceAccount**
+```yaml
+API GROUP: *
+```
+
+It will create the **Role**, **RoleBinding**, and **ServiceAccount** which is required to perform the specified action to the specified resource described above.
 
 
 Click on the back button on top of the configurations.
