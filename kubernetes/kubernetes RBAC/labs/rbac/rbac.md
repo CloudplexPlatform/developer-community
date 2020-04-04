@@ -87,7 +87,7 @@ Action: List
 Click on Add API group button to add the API group 
 
 
-[API groups](https://kubernetes.io/docs/concepts/overview/kubernetes-api/#api-groups) are used to extend the Kubernetes API. RBAC authorization uses the k8s.io API group to drive authorization decisions, allowing you to dynamically configure policies through the Kubernetes API.
+[API groups](https://kubernetes.io/docs/concepts/overview/kubernetes-api/#api-groups) are used to extend the Kubernetes API. RBAC authorization uses API group to drive authorization decisions, allowing you to dynamically configure policies through the Kubernetes API.
 
 ```yaml
 API GROUP: *
