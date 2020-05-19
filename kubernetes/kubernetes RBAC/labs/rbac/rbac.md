@@ -1,6 +1,6 @@
 ### Objective
 
-This lab is to familiarize you with Kubernetes RBAC and how to grant permissions to your microservice
+This lab is to familiarize you with Kubernetes RBAC and how to grant permissions to your microservice.
 
 ### Code Repository
 
