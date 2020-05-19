@@ -21,7 +21,7 @@
             },
             "tutorials": {
                 "guestbook": {
-                    "title": "Deployment",
+                    "title": "Deployment Tutorial",
                     "description": "This is Guestbook Deployment Tutorial, which will help you to deploy Redis and Guestbook Application."
                 }
             }
