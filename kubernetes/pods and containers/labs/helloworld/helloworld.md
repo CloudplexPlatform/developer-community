@@ -2,12 +2,6 @@
 
 This Lab will help you to run a simple HelloWorld Application from CloudPlex.
 
-### Relevant Material
-
-[Tutorial]()
-
-[Video]()
-
 ### Code Repository
 
 ​	https://github.com/cloudplex-io/hello-world

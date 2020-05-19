@@ -3,8 +3,8 @@
         "pods and containers": {
             "labs": {
                 "helloworld": {
-                    "title": "Hello World Lab",
-                    "description": "Run a simple HelloWorld Application from cloudplex.",
+                    "title": "Pods And Containers",
+                    "description": "This Lab will help you to run a simple HelloWorld Application from CloudPlex.",
                     "complexity": "easy",
                     "time": "00:20:00"
                 }
