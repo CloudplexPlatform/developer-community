@@ -2,13 +2,6 @@
 
 This is Callerinfo Application Tutorial, which will help you to store caller information on persistent disk and return it.
 
-
-### Relevant Material
-
-[Lab](https://learning.cloudplex.io/learning/docs/callerinfo-lab)
-
-[Video]()
-
 ### Overview
 
 When working with containers, storage is typically tied to the lifecycle of the container it’s attached to. That means it’s ephemeral: when the container dies, its storage dies with it. For the most part, this is good, because it aligns with the Kubernetes philosophy of abstracting away hardware concerns.

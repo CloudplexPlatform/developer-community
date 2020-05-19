@@ -1,6 +1,6 @@
 {
-  "title": "callerinfo Application",
-  "description": "Store caller information on persistent disk and return it.",
-  "complexity":"intermediate",
-  "time":"00:30:00"
+    "title": "Persistent Volumes Lab",
+    "description": "This Lab will help you to store caller information on persistent disk and return it.",
+    "complexity": "intermediate",
+    "time": "00:30:00"
 }

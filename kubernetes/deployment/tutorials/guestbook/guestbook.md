@@ -2,12 +2,6 @@
 
 This is Guestbook Deployment Tutorial, which will help you to deploy Redis and Guestbook Application.
 
-### Relevant Material
-
-[Lab](https://learning.cloudplex.io/learning/docs/guestbook-lab)
-
-[Video]()
-
 ### Overview
 
 In this tutorial, we’re going to discuss deployment. Once you've set up a cluster and built a container, the next step is to deploy. So how do you actually get your code up and running? Moreover, once your code is running, how do you update it (preferably without having to turn everything off and on). 

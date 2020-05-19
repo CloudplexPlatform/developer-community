@@ -1,6 +1,6 @@
 {
-    "title": "Kubernetes RBAC Application",
+    "title": "Kubernetes RBAC Lab",
     "description": "This lab is to familiarize you with Kubernetes RBAC and how to grant permissions to your microservice",
-    "complexity":"intermediate",
-    "time":"00:40:00"
+    "complexity": "intermediate",
+    "time": "00:40:00"
 }

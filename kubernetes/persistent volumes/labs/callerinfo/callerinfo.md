@@ -2,12 +2,6 @@
 
 This Lab will help you to store caller information on persistent disk and return it.
 
-### Relevant Material
-
-[Tutorial](https://learning.cloudplex.io/learning/docs/callerinfo-tutorial)
-
-[Video]()
-
 ### Code Repository
 
 https://github.com/CloudplexPlatform/callerinfo-sample-application

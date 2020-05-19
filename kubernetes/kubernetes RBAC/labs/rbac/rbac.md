@@ -2,12 +2,6 @@
 
 This lab is to familiarize you with Kubernetes RBAC and how to grant permissions to your microservice
 
-### Relevant Material
-
-[Tutorial]()
-
-[Video]()
-
 ### Code Repository
 
 https://github.com/CloudplexPlatform/k8s-rbac-sample-app

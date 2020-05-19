@@ -1,6 +1,6 @@
 {
-  "title": "GuestBook Application",
-  "description": "Deploy redis and guestbook application.",
-  "complexity":"easy",
-  "time":"00:25:00"
+    "title": "Deployment Lab",
+    "description": "This Lab will help you to deploy Redis and Guestbook application.",
+    "complexity": "easy",
+    "time": "00:25:00"
 }

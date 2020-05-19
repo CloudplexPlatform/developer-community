@@ -1,6 +1,6 @@
 {
-    "title": "Hostname-Info Application",
-    "description": "Deploy Volume and Hostname application with Statefulset",
-    "complexity":"intermediate",
-    "time":"00:30:00"
-  }
+    "title": "Stateful Set Lab",
+    "description": "This lab is to familiarize you with Kubernetes Statefulset , which will return the hostname of the running Pod.",
+    "complexity": "intermediate",
+    "time": "00:30:00"
+}
