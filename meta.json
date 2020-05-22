@@ -46,7 +46,7 @@
             "labs": {
                 "rbac": {
                     "title": "Kubernetes RBAC Lab",
-                    "description": "This lab is to familiarize you with Kubernetes RBAC and how to grant permissions to your microservice",
+                    "description": "This lab is to familiarize you with Kubernetes RBAC and how to grant permissions to your microservice.",
                     "complexity": "intermediate",
                     "time": "00:40:00"
                 }
@@ -56,7 +56,7 @@
             "labs": {
                 "hostname": {
                     "title": "Stateful Set Lab",
-                    "description": "This lab is to familiarize you with Kubernetes Statefulset , which will return the hostname of the running Pod.",
+                    "description": "This lab is to familiarize you with Kubernetes Statefulset, which will return the hostname of the running Pod.",
                     "complexity": "intermediate",
                     "time": "00:30:00"
                 }
