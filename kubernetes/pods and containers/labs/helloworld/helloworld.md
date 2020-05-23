@@ -1,6 +1,6 @@
 ### Objective
 
-This Lab will help you to run a simple HelloWorld Application from CloudPlex.
+This Lab will help you understand the concept of Pods and Containers by running a simple HelloWorld Application from CloudPlex.
 
 ### Code Repository
 
