@@ -1,10 +1,6 @@
 ### Objective
 
-<<<<<<< HEAD
-This lab is to familiarize you with Kubernetes Statefulset, which will return the hostname of the running Pod.
-=======
 This lab is to familiarize you with Kubernetes Stateful Set, which will return the hostname of the running Pod.
->>>>>>> 77466c6de03e89e34d36a33a68d1613ffdd6e1f9
 
 ### Code Repository
 
