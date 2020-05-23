@@ -1,6 +1,6 @@
 ### Objective
 
-This lab is to familiarize you with Kubernetes Statefulset, which will return the hostname of the running Pod.
+This lab is to familiarize you with Kubernetes Stateful Set, which will return the hostname of the running Pod.
 
 ### Code Repository
 
@@ -69,7 +69,7 @@ Select the service to open configuration of the service on the right side of the
 
    ![Lab04-contianer-serivce-configuraion-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/stateful%20set/labs/hostname/images/Lab04-container-service-configuration-02.png)
 
-2. Select **Statefulset** from the type dropdown
+2. Select **Stateful Set** from the type dropdown
 
    [Statefulset](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/) is the workload API object used to manage stateful applications.
 
