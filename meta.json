@@ -9,58 +9,6 @@
                     "time": "00:20:00"
                 }
             }
-        },
-        "deployment": {
-            "labs": {
-                "guestbook": {
-                    "title": "Deployment Lab",
-                    "description": "This Lab will help you to deploy Redis and Guestbook application.",
-                    "complexity": "easy",
-                    "time": "00:25:00"
-                }
-            },
-            "tutorials": {
-                "guestbook": {
-                    "title": "Deployment Tutorial",
-                    "description": "This is Guestbook Deployment Tutorial, which will help you to deploy Redis and Guestbook Application."
-                }
-            }
-        },
-        "persistent volumes": {
-            "labs": {
-                "callerinfo": {
-                    "title": "Persistent Volumes Lab",
-                    "description": "This Lab will help you to store caller information on persistent disk and return it.",
-                    "complexity": "intermediate",
-                    "time": "00:30:00"
-                }
-            },
-            "tutorials": {
-                "callerinfo": {
-                    "title": "Persistent Volumes Tutorial",
-                    "description": "This is Callerinfo Application Tutorial, which will help you to store caller information on persistent disk and return it."
-                }
-            }
-        },
-        "kubernetes RBAC": {
-            "labs": {
-                "rbac": {
-                    "title": "Kubernetes RBAC Lab",
-                    "description": "This lab is to familiarize you with Kubernetes RBAC and how to grant permissions to your microservice.",
-                    "complexity": "intermediate",
-                    "time": "00:40:00"
-                }
-            }
-        },
-        "stateful set": {
-            "labs": {
-                "hostname": {
-                    "title": "Stateful Set Lab",
-                    "description": "This lab is to familiarize you with Kubernetes Stateful Set, which will return the hostname of the running Pod.",
-                    "complexity": "intermediate",
-                    "time": "00:30:00"
-                }
-            }
         }
     }
 }
