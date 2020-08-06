@@ -3,7 +3,6 @@
 - Create [Cloudplex platform](https://app.cloudplex.io/register) account
 - Read [Tutorial](cloudplex.io/tutorials/deployment) of the lab
 
-
 #### Add Secret Service
 
 CloudPlex platform provides a secret management service that provides the ability to store sensitive data such as passwords, tokens, and certificates in Cloudplex. Any data entered in this service is stored in a secure vault with at-rest encryption. This eventually becomes a [Kubernetes Secret](https://kubernetes.io/docs/concepts/configuration/secret) in a deployed application.
@@ -63,7 +62,7 @@ Select MySQL service.
 CloudPlex automatically pulls all the tags and metadata of the image and populates default values of service (Service Id, Service Name, Namespace, Type)
 
 
-##### Add new Environment Variables 
+##### Add Environment Variables
 
 Click on the **Environment variables section** to add a new [environment variable](https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/#define-an-environment-variable-for-a-container).
 
@@ -107,12 +106,54 @@ Click on the save button to save the service.
 ![service-save](images/save-button-3.png)
 
 
+#### Add Volume Service
+
+A [PersistentVolume](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) (PV) is a piece of storage in the cluster that has been dynamically provisioned by Kubernetes using a [StorageClass](https://kubernetes.io/docs/concepts/storage/storage-classes).
+
+MySQL service used this block of storage to store its data.
+
+To add a persistent storage to your ***MySQL Service***, Click on the MySQL service to open the service configurations on the right side and click on  ***Advanced Configurations***
+
+![container-service-advanced-configuration](images/advanced-configurations.png)
+
+Select container volumes. CloudPlex has integrated with all the volumes and provides an easy to use interface for all of them.
+
+![container-volumes](images/container-volumes.png)
+
+For this lab, let's select persistent volume. Select Volume from service dropdown. If you don't have any volume available on canvas, you can create a new volume config by providing simple configurations.
+
+Click on new from the service dropdown and CloudPlex will take you to the volume configurations panel.
+
+![new-volume-service](images/new-volume-service.png)
+
+CloudPlex automatically populates default values of service (Service Id, Service Name, Namespace)
+
+Enter desired capacity ***10Gi*** and Reclaim policy ***delete*** from dropdown. The reclaim policy for a PersistentVolume tells the cluster what to do with the volume after it has been released of its claim
+
+![policy-and-capacity](images/policy-capacity.png)
+
+Click on the save button to save the configuration
+
+![button-save](images/save-button-3.png)
+
+Now you are back to your container service where you left it, Provide volume mount path. 
+
+![mount-path](images/mount-path.png)
+
+Click on the save button to save the service.
+
+![save-service](images/lab-03-save.png)
+
+All the Kubernetes manifest required to create a persistent volume (persistent volume claim, storageclass) is automatically created by the platform.
+
+A [PersistentVolumeClaim](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) (PVC) is a request for storage by a user and a [StorageClass](https://kubernetes.io/docs/concepts/storage/storage-classes/) provides a way for administrators to describe the "classes" of storage they offer
+
+
 #### Save Application
 
 Click on the **Save** button at the top right corner, On saving the application you will be taken to the status page.
 
 ![save-app](images/save-app.png)
-
 
 
 #### Deploy MySQL on the Cluster
@@ -125,7 +166,7 @@ In the log window, you can see the logs of your infrastructure, Kubernetes Clust
 
 ![app-deployment-logs](images/app-deployment-logs.png)
 
-**!! Deployment will take around 15 minutes!!** 
+**!! Deployment will take around 15 minutes!!**
 
 
 #### Cleanup
@@ -134,3 +175,4 @@ To avoid unnecessary costs, don’t forget to terminate your application when yo
 Click on the terminate button to delete all your resources from Cloud.
 
 ![Lab-01-cleanup-01](images/Lab-01-cleanup-01.png)
+
