@@ -1,0 +1,6 @@
+{
+  "title": "Container Service with Persistent Volume",
+  "description": "How to deploy a MySQL Container service with Persistent Volume",
+  "complexity":"intermediate",
+  "time":"00:30:00"
+}
