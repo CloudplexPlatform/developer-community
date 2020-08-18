@@ -9,6 +9,28 @@
                     "time": "00:20:00"
                 }
             }
+        },
+        "secrets": {
+            "labs": {
+                "mysql-secret": {
+                    "title": "Container Service with Secret",
+                    "description": "How to deploy a MySQL Container service with Kubernetes secret.",
+                    "complexity":"intermediate",
+                    "time":"00:30:00"
+                }
+            }
+        },
+        "persistentvolumes": {
+            "labs": {
+                "mysql-pv": {
+                    "title": "Container Service with Persistent Volume",
+                    "description": "How to deploy a MySQL Container service with Persistent Volume",
+                    "complexity":"intermediate",
+                    "time":"00:30:00"          
+                }
+            }
         }
+
+
     }
 }
