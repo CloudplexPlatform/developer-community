@@ -12,7 +12,7 @@
         },
         "secrets": {
             "labs": {
-                "mysql-secret": {
+                "mysqlSecret": {
                     "title": "Container Service with Secret",
                     "description": "How to deploy a MySQL Container service with Kubernetes secret.",
                     "complexity":"intermediate",
@@ -22,7 +22,7 @@
         },
         "persistent volumes": {
             "labs": {
-                "mysql-pv": {
+                "mysqlPv": {
                     "title": "Container Service with Persistent Volume",
                     "description": "How to deploy a MySQL Container service with Persistent Volume",
                     "complexity":"intermediate",
