@@ -1,6 +1,0 @@
-{
-  "title": "Hostfet Applcation",
-  "description": "Store caller information on persistent disk and return it",
-  "complexity":"intermediate",
-  "time":"00:30:00"
-}

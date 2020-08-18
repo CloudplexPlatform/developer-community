@@ -1,0 +1,36 @@
+{
+    "kubernetes": {
+        "pods and containers": {
+            "labs": {
+                "helloworld": {
+                    "title": "Pods And Containers Lab",
+                    "description": "This Lab will help you understand the concept of Pods and Containers by running a simple HelloWorld Application from CloudPlex.",
+                    "complexity": "easy",
+                    "time": "00:20:00"
+                }
+            }
+        },
+        "secrets": {
+            "labs": {
+                "mysql-secret": {
+                    "title": "Container Service with Secret",
+                    "description": "How to deploy a MySQL Container service with Kubernetes secret.",
+                    "complexity":"intermediate",
+                    "time":"00:30:00"
+                }
+            }
+        },
+        "persistentvolumes": {
+            "labs": {
+                "mysql-pv": {
+                    "title": "Container Service with Persistent Volume",
+                    "description": "How to deploy a MySQL Container service with Persistent Volume",
+                    "complexity":"intermediate",
+                    "time":"00:30:00"          
+                }
+            }
+        }
+
+
+    }
+}
