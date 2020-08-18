@@ -20,7 +20,7 @@
                 }
             }
         },
-        "persistentvolumes": {
+        "persistent volumes": {
             "labs": {
                 "mysql-pv": {
                     "title": "Container Service with Persistent Volume",
