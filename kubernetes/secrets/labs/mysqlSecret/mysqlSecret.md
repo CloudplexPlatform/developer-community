@@ -125,7 +125,7 @@ Click on the **Save** button at the top right corner, On saving the application 
 
 #### Deploy MySQL on the Cluster
 
-Click on the Start button to start deployhttps://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/secrets/labs/mysqlSecret/ing the application on the cluster you have created.
+Click on the Start button to start deploying the application on the cluster you have created.
 
 ![app-start-button](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/secrets/labs/mysqlSecret/images/app-start.png)
 
