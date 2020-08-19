@@ -117,17 +117,10 @@ Click on the save button to save the service.
 
 #### Save Application
 
-Click on the **Save** button at the top right corner, On saving the application you will be taken to the status page.
+Click on the **Save** button at the top right corner, your deployment will start right after saving the application and it will redirect you to the logs tabs.
 
 ![save-app](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/secrets/labs/mysqlSecret/images/save-app.png)
 
-
-
-#### Deploy MySQL on the Cluster
-
-Click on the Start button to start deployhttps://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/secrets/labs/mysqlSecret/ing the application on the cluster you have created.
-
-![app-start-button](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/secrets/labs/mysqlSecret/images/app-start.png)
 
 In the log window, you can see the logs of your infrastructure, Kubernetes Cluster and Application which you have deployed.
 
