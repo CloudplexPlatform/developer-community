@@ -138,4 +138,4 @@ You will get this screen by copying that ingress Endpoint in your browser
 
 Click on the Terminate button to remove all the resources from the cloud.
 
- ![Lab-01-cleanup-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/Lab-01-cleanup-01.png)
+ ![Lab-01-cleanup-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/cleanup.png)
