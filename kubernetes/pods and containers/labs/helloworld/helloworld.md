@@ -73,14 +73,9 @@ Click on the back button on top of the configurations.
 
 ![Lab01-Add-Ports-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/Lab01-Add-Ports-01.png)
 
+Cloudplex automatically discovers ports from Docker images and populates them in the ports section of the service.
 
-
-```bash
-Name = http-3000
-Container Port = 3000
-```
-
-![Lab01-Add-Ports-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/Lab01-Add-Ports-02.png)
+![Lab01-Add-Ports-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/ports.png)
 
 Click on the back button on top of the configurations.
 
