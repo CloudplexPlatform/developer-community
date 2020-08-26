@@ -1,6 +1,6 @@
 #### Objective
 
-In this lab, you will learn how to how deploy a MySQL server using Cloudplex integrated Docker-Hub which will be used to pull pre-build MySQL image and use Cloudplex secret service to store Kubernetes Secret.
+In this lab, you will learn how to deploy a MySQL server using Cloudplex integrated Docker-Hub which will be used to pull pre-build MySQL image and use Cloudplex secret service to store Kubernetes Secret.
 
 #### Cloud Provider
 
@@ -11,6 +11,16 @@ CloudPlex platform gives you the freedom of choosing you any cloud provider amon
 You have to provide your selected cloud credentials in order to further continue this lab. There are fields under each cloud provider tab, fill them out.
 
 Click on the **next** button on the top right corner.
+
+
+#### Add Application Info
+
+Give name to your application and specify the version, you can add tags to your application as well
+
+![app-info](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/secrets/labs/mysqlSecret/images/app-info.png)
+
+Click on the **next** button on the top right corner.
+
 
 #### Add Secret Service
 
@@ -115,12 +125,9 @@ Click on the save button to save the service.
 ![service-save](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/secrets/labs/mysqlSecret/images/save-button-3.png)
 
 
-#### Save Application
+#### Deploy Application
 
-Click on the **Save** button at the top right corner, your deployment will start right after saving the application and it will redirect you to the logs tabs.
-
-![save-app](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/secrets/labs/mysqlSecret/images/save-app.png)
-
+Click on the **Deploy** button at the top right corner, your deployment will start right after saving the application and it will redirect you to the logs tabs.
 
 In the log window, you can see the logs of your infrastructure, Kubernetes Cluster and Application which you have deployed.
 
