@@ -16,6 +16,14 @@ You have to provide your selected cloud credentials in order to further continue
 
 Click on the **next** button on the top right corner.
 
+#### Add Application Info
+
+Give name to your application and specify the version, you can also give tags to your application of your choice.
+
+![app-info](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/app-info.png)
+
+Click on the **next** button on the top right corner.
+
 ### Add Service
 
 CloudPlex has integrated with [Docker Hub](https://hub.docker.com/) registry which allows users to access prebuilt images. You can fetch images metadata (Environment variables, Ports).
@@ -87,18 +95,14 @@ Click on the back button on top of the configurations.
 
 Click on the back button on top of the configurations.
 
-### Save Application
-
-Click on the **Save** button at the bottom right corner
+Click on the **Save** button at the bottom right corner  to save your service
 
 ![Lab01-save-service-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/Lab01-save-service-01.png)
 
 
+### Deploy Application
 
-Click on the save button to save the application
-
-![Lab01-save-application01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/Lab01-save-application01.png)
-
+Click on the **Deploy** button at the top right corner, your deployment will start right after saving the application and it will redirect you to the logs tabs.
 
 
 ### Your Application Logs
