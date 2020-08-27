@@ -33,10 +33,6 @@ Click on the service to open the configuration panel on the right side.
 
 The platform will populate the default values of service (Service Id, Service Name, Namespace)
 
-Update Service Id and Service Name to ***mysql-secret***
-
-![secret-service-info](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/mysqlPv/images/mysqlsecret.png)
-
 By default, the type of secret is Opaque, you can choose different types according to your use case.
 
 ![secret-service-type-opaque](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/mysqlPv/images/secret-type.png)
