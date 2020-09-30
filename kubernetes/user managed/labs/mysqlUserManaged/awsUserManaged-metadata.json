@@ -1,0 +1,6 @@
+{
+  "title": "AWS User Managed Infrastructure",
+  "description": "How to create and use your own kubernetes cluster on AWS cloud.",
+  "complexity":"intermediate",
+  "time":"00:40:00"
+}
