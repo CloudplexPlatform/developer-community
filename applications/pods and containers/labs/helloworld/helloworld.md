@@ -20,7 +20,7 @@ Click on the **next** button on the top right corner.
 
 Give name to your application and specify the version, you can also give tags to your application of your choice.
 
-![app-info](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/app-info.png)
+![app-info](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/app-info.png)
 
 Click on the **next** button on the top right corner.
 
@@ -30,7 +30,7 @@ CloudPlex has integrated with [Docker Hub](https://hub.docker.com/) registry whi
 
 Drag **Docker Hub** service from palette and drop it on canvas. 
 
-![ezgif.com-video-to-gif](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/ezgif.com-video-to-gif.gif)
+![ezgif.com-video-to-gif](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/ezgif.com-video-to-gif.gif)
 
 
 
@@ -44,46 +44,46 @@ Click on the service to show search panel of the service from Docker Hub.
 
 
 
-![helloworld-service-dockerhub](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/helloworld-service-dockerhub.gif)
+![helloworld-service-dockerhub](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/helloworld-service-dockerhub.gif)
 
 
 
 CloudPlex will select the latest version of the image. 
 
-![Lab01-Add-Tag](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/Lab01-Add-Tag.png)
+![Lab01-Add-Tag](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/Lab01-Add-Tag.png)
 
 
 
 ### Add Environment Variables
 
-They are required to  expose information to containers running in the Pod. Click on the **Environment variables section** to add a new [environment variable](https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/#define-an-environment-variable-for-a-container).
+They are required to  expose information to containers running in the Pod. Click on the **Environment variables section** to add a new [environment variable](https:/.io/docs/tasks/inject-data-application/define-environment-variable-container/#define-an-environment-variable-for-a-container).
 
-![Lab01-Add-EnvironmentVariable-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/Lab01-Add-EnvironmentVariable-01.png)
+![Lab01-Add-EnvironmentVariable-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/Lab01-Add-EnvironmentVariable-01.png)
 
 
 
 CloudPlex provides two types of variables (**Static, Dynamic**). Let's add a static environment variable.
 
-![Lab01-Add-EnvironmentVariable-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/Lab01-Add-EnvironmentVariable-02.png)
+![Lab01-Add-EnvironmentVariable-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/Lab01-Add-EnvironmentVariable-02.png)
 
 ```bash
 Key = PORT
 Value = 3000
 ```
 
-![Lab01-Add-EnvironmentVariable-03](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/Lab01-Add-EnvironmentVariable-03.png)
+![Lab01-Add-EnvironmentVariable-03](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/Lab01-Add-EnvironmentVariable-03.png)
 
 Click on the back button on top of the configurations.
 
 ### Add new Port
 
-[Ports](https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/#the-kubernetes-model-for-connecting-containers) are required to access your applications. Click on the **Port section** to add a new port
+[Ports](https:/kubernetes.io/docs/concepts/services-networking/connect-applications-service/#the-kubernetes-model-for-connecting-containers) are required to access your applications. Click on the **Port section** to add a new port
 
-![Lab01-Add-Ports-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/Lab01-Add-Ports-01.png)
+![Lab01-Add-Ports-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/Lab01-Add-Ports-01.png)
 
 Cloudplex automatically discovers ports from Docker images and populates them in the ports section of the service.
 
-![Lab01-Add-Ports-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/ports.png)
+![Lab01-Add-Ports-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/ports.png)
 
 Click on the back button on top of the configurations.
 
@@ -91,13 +91,13 @@ Click on the back button on top of the configurations.
 
 ​	[Ingress gateway](https://istio.io/docs/tasks/traffic-management/ingress/ingress-control/) will allow you to access service from the internet. Click on the Ingress section to enable ingress traffic.
 
-![Lab01-Ingress-traffic-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/Lab01-Ingress-traffic-01.png)
+![Lab01-Ingress-traffic-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/Lab01-Ingress-traffic-01.png)
 
 Click on the back button on top of the configurations.
 
 Click on the **Save** button at the bottom right corner  to save your service
 
-![Lab01-save-service-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/Lab01-save-service-01.png)
+![Lab01-save-service-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/Lab01-save-service-01.png)
 
 
 ### Deploy Application
@@ -111,7 +111,7 @@ In the log window, you can see the logs of your infrastructure, Kubernetes Clust
 
 **!! Deployment will take around 15 minutes!!** 
 
-![Lab01-Deployment-Logs-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/Lab01-Deployment-Logs-01.png)
+![Lab01-Deployment-Logs-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/Lab01-Deployment-Logs-01.png)
 
 
 
@@ -119,7 +119,7 @@ In the log window, you can see the logs of your infrastructure, Kubernetes Clust
 
 Click on the App to get Ingress gateway Endpoint
 
-![Lab01-Ingress-Endpoint-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/Lab01-Ingress-Endpoint-01.png)
+![Lab01-Ingress-Endpoint-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/Lab01-Ingress-Endpoint-01.png)
 
 
 
@@ -129,7 +129,7 @@ Copy Ingress Endpoint and Paste in browser new Tab.
 
 You will get this screen by copying that ingress Endpoint in your browser
 
-![Lab01-browser-output](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/Lab01-browser-output.png)
+![Lab01-browser-output](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/Lab01-browser-output.png)
 
 
 
@@ -137,4 +137,4 @@ You will get this screen by copying that ingress Endpoint in your browser
 
 Click on the Terminate button to remove all the resources from the cloud.
 
- ![Lab-01-cleanup-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/pods%20and%20containers/labs/helloworld/images/cleanup.png)
+ ![Lab-01-cleanup-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/cleanup.png)
