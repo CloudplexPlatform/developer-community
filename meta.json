@@ -1,36 +1,51 @@
 {
     "kubernetes": {
-        "pods and containers": {
-            "labs": {
-                "helloworld": {
-                    "title": "Pods And Containers Lab",
-                    "description": "This Lab will help you understand the concept of Pods and Containers by running a simple HelloWorld Application from CloudPlex.",
-                    "complexity": "easy",
-                    "time": "00:20:00"
+        "application": {
+            "pods and containers": {
+                "labs": {
+                    "helloworld": {
+                        "title": "Pods And Containers Lab",
+                        "description": "This Lab will help you understand the concept of Pods and Containers by running a simple HelloWorld Application from CloudPlex.",
+                        "complexity": "easy",
+                        "time": "00:20:00"
+                    }
+                }
+            },
+            "secrets": {
+                "labs": {
+                    "mysqlSecret": {
+                        "title": "Container Service with Secret",
+                        "description": "How to deploy a MySQL Container service with Kubernetes secret.",
+                        "complexity":"intermediate",
+                        "time":"00:30:00"
+                    }
+                }
+            },
+            "persistent volumes": {
+                "labs": {
+                    "mysqlPv": {
+                        "title": "Container Service with Persistent Volume",
+                        "description": "How to deploy a MySQL Container service with Persistent Volume",
+                        "complexity":"intermediate",
+                        "time":"00:30:00"          
+                    }
                 }
             }
+    
+    
         },
-        "secrets": {
-            "labs": {
-                "mysqlSecret": {
-                    "title": "Container Service with Secret",
-                    "description": "How to deploy a MySQL Container service with Kubernetes secret.",
-                    "complexity":"intermediate",
-                    "time":"00:30:00"
-                }
-            }
-        },
-        "persistent volumes": {
-            "labs": {
-                "mysqlPv": {
-                    "title": "Container Service with Persistent Volume",
-                    "description": "How to deploy a MySQL Container service with Persistent Volume",
-                    "complexity":"intermediate",
-                    "time":"00:30:00"          
+        "infrastructure":{
+            "user managed": {
+                "labs": {
+                    "awsUserManaged": {
+                        "title": "AWS User Managed Infrastructure",
+                        "description": "How to create and use your own kubernetes cluster on AWS cloud.",
+                        "complexity":"intermediate",
+                        "time":"00:40:00"   
+                    }
                 }
             }
         }
-
-
+            
     }
 }
