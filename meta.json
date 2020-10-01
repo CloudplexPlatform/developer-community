@@ -1,6 +1,6 @@
 {
     "kubernetes": {
-        "application": {
+        "applications": {
             "pods and containers": {
                 "labs": {
                     "helloworld": {
@@ -34,7 +34,7 @@
     
     
         },
-        "infrastructure":{
+        "infrastructures":{
             "user managed": {
                 "labs": {
                     "awsUserManaged": {
