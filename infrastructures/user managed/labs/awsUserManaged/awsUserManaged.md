@@ -4,14 +4,6 @@ In this lab, you will learn how to create and use your own kubernetes cluster on
 
 #### Set up Basic Information
 
-Click on create new Infrastructure button
-
-![create-app-btn](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/infrastructures/user%20managed/labs/awsUserManaged/images/20.png)
-
-Select ***Create New User-Managed*** Kubernetes cluster.
-
-![user-managed-cluster](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/infrastructures/user%20managed/labs/awsUserManaged/images/1.png)
-
 Cloudplex platform will populate the basic info (Infrastructure name, Infrastructure Id) itself.
 
 For this lab, we will use [AWS](https://aws.amazon.com/) as our cloud provider (you must have an account on AWS in order to use it). Provide cloud provider credentials and save them as profile for future use.
