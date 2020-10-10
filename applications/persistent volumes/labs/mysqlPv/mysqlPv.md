@@ -152,7 +152,7 @@ Now you are back to your container service where you left it, Provide volume mou
 
 Click on the save button to save the service.
 
-![save-service](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/mysqlPv/images/25.png)
+![save-service](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/25.png)
 
 All the Kubernetes manifest required to create a persistent volume (persistent volume claim, storageclass) is automatically created by the platform.
 
