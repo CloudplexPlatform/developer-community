@@ -80,9 +80,9 @@ Click on the **Environment variables section** to add a new [environment variabl
 
 Cloudplex provides two types of variables ([Static](https://docs.cloudplex.io/#/pages/user-guide/components/k8s-resources/container/container), [Dynamic](https://docs.cloudplex.io/#/pages/user-guide/components/k8s-resources/container/container)). We are going to use Dynamic variable in this lab to use the ***Secret*** key in our container
 
-![dynamic-parameters](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/11.gif)
+![dynamic-parameters](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/11.png)
 
-Select mysql-secret from the service drop-down and type MYSQL_ROOT_PASSWORD in the key field.
+Select the secret service from the service drop-down and type MYSQL_ROOT_PASSWORD in the key field.
 
 ![dynamic-variables-key](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/12.png)
 
