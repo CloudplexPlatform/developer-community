@@ -27,23 +27,17 @@ CloudPlex platform provides a secret management service that provides the abilit
 
 To configure the service, Drag-n-drop **Secret service** from pallet to the canvas.
 
-![secret-service](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/secret-service-drag.gif)
+![secret-service](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/2.gif)
 
 Click on the service to open the configuration panel on the right side.
 
 The platform will populate the default values of service (Service Id, Service Name, Namespace)
 
-Update Service Id and Service Name to ***mysql-secret***
-
-![secret-service-info](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/mysqlsecret.png)
-
-By default, the type of secret is Opaque, you can choose different types according to your use case.
-
-![secret-service-type-opaque](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/secret-type.png)
+![secret-service-info](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/3.png)
 
 Click on Add secret string and type ***MYSQL_ROOT_PASSWORD*** in key and the Password in the value field. For this lab, type (the password as shown) ***5dzo2MsriVJNYTTtud8gOyDc3A*** in the value field.
 
-![secret-key-password](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/secret-password.png)
+![secret-key-password](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/4.png)
 
 ```yaml
 key : MYSQL_ROOT_PASSWORD
@@ -52,30 +46,30 @@ value : 5dzo2MsriVJNYTTtud8gOyDc3A
 
 Click on save button to save service
 
-![button-save](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/save-button.png)
+![button-save](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/5.png)
 
 
 #### Configure the MySQL Container
 
 Drag-n-drop the ***Docker Hub*** service from pallet to the canvas.
 
-![docker-hub-service](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/docker-hub-service.gif)
+![docker-hub-service](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/6.gif)
 
 Drag the arrow from ***Secret*** service to ***Container*** service.
 
-![dockerhub-secret-link](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/link-docker-secret.gif)
+![dockerhub-secret-link](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/7.gif)
 
 Click on the service to open the configuration panel on the right side.
 
-![docker-hub-service-configuration](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/service-configuration.png)
+![docker-hub-service-configuration](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/8.png)
 
 Type MySQL in the search bar and click on the search button.
 
-![mysql-search](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/mysql-search.png)
+![mysql-search](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/9.png)
 
 Select MySQL service.
 
-![mysql-service](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/mysql-service.png)
+![mysql-service](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/10.png)
 
 CloudPlex automatically pulls all the tags and metadata of the image and populates default values of service (Service Id, Service Name, Namespace, Type)
 
@@ -86,42 +80,40 @@ Click on the **Environment variables section** to add a new [environment variabl
 
 Cloudplex provides two types of variables ([Static](https://docs.cloudplex.io/#/pages/user-guide/components/k8s-resources/container/container), [Dynamic](https://docs.cloudplex.io/#/pages/user-guide/components/k8s-resources/container/container)). We are going to use Dynamic variable in this lab to use the ***Secret*** key in our container
 
-![dynamic-parameters](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/dynamic-parameters.gif)
+![dynamic-parameters](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/11.gif)
 
 Select mysql-secret from the service drop-down and type MYSQL_ROOT_PASSWORD in the key field.
 
-![dynamic-variables-key](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/dynamic-variables.png)
+![dynamic-variables-key](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/12.png)
 
 Expand ***Service Attributes*** and Secrets Data and select ***MYSQL_ROOT_PASSWORD***. Cloudplex automatically generates dynamic  parameters for you.
 
-![dynamic-variables-key-select](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/dynamic-variables-key-select.png)
+![dynamic-variables-key-select](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/13.png)
 
 Click on the save button to save the parameters.
 
-![save-button-2](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/save-button-2.png)
+![save-button-2](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/14.png)
 
 A new environment variable with the key ***MYSQL_ROOT_PASSWORD*** will be added in the list of Environment Variables.
 
-![saved-environment-variable](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/saved-environment-variable.png)
+![saved-environment-variable](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/15.png)
 
 Click on the back button on top of the configurations.
-
-![back-button](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/back-button.png)
 
 
 ##### Add new Port
 
 [Ports](https:/kubernetes.io/docs/concepts/services-networking/connect-applications-service/#the-kubernetes-model-for-connecting-containers) are required to access your applications. Click on the **Port section** to add a new port
 
-![Add-Ports-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/add-ports-01.png)
+![Add-Ports-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/16.png)
 
 Cloudplex automatically discovers ports from Docker images and populates them in the ports section of the service.
 
-![Add-Ports-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/add-ports-02.png)
+![Add-Ports-02](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/17.png)
 
 Click on the save button to save the service.
 
-![service-save](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/save-button-3.png)
+![service-save](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/18.png)
 
 
 #### Add Volume Service
@@ -132,35 +124,35 @@ MySQL service used this block of storage to store its data.
 
 To add a persistent storage to your ***MySQL Service***, Click on the MySQL service to open the service configurations on the right side and click on  ***Advanced Configurations***
 
-![container-service-advanced-configuration](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/advanced-configurations.png)
+![container-service-advanced-configuration](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/19.png)
 
 Select container volumes. CloudPlex has integrated with all the volumes and provides an easy to use interface for all of them.
 
-![container-volumes](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/container-volumes.png)
+![container-volumes](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/20.png)
 
 For this lab, let's select persistent volume. Select Volume from service dropdown. If you don't have any volume available on canvas, you can create a new volume config by providing simple configurations.
 
 Click on new from the service dropdown and CloudPlex will take you to the volume configurations panel.
 
-![new-volume-service](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/new-volume-service.png)
+![new-volume-service](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/21.png)
 
 CloudPlex automatically populates default values of service (Service Id, Service Name, Namespace)
 
 Enter desired capacity ***10Gi*** and Reclaim policy ***delete*** from dropdown. The reclaim policy for a PersistentVolume tells the cluster what to do with the volume after it has been released of its claim
 
-![policy-and-capacity](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/policy-capacity.png)
+![policy-and-capacity](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/22.png)
 
 Click on the save button to save the configuration
 
-![button-save](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/save-button-3.png)
+![button-save](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/23.png)
 
 Now you are back to your container service where you left it, Provide volume mount path. 
 
-![mount-path](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/mount-path.png)
+![mount-path](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/24.png)
 
 Click on the save button to save the service.
 
-![save-service](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/mysqlPv/images/lab-03-save.png)
+![save-service](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/kubernetes/persistent%20volumes/labs/mysqlPv/images/25.png)
 
 All the Kubernetes manifest required to create a persistent volume (persistent volume claim, storageclass) is automatically created by the platform.
 
@@ -169,17 +161,17 @@ A [PersistentVolumeClaim](https://kubernetes.io/docs/concepts/storage/persistent
 
 #### Deploy Application
 
-Click on the **Deploy** button at the top right corner, your deployment will start right after saving the application and it will redirect you to the logs tabs.
+Click on the **Deploy** button at the top right corner and select the ***Infrastruture*** from the drop down list of your deployed infrastructures, your deployment will start right after saving the application and it will redirect you to the logs tabs.
 
-In the log window, you can see the logs of your infrastructure, Kubernetes Cluster and Application which you have deployed.
+In the log window, you can see the logs of your application.
 
-![app-deployment-logs](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/app-deployment-logs.png)
+![app-deployment-logs](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/26.png)
 
 **!! Deployment will take around 15 minutes!!**
 
 You can see the status of the application you just deployed by clicking on the app tab and click on Table view to see the realtime status of the services.
 
-![app-status](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/app-status.png)
+![app-status](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/28.png)
 
 
 #### Cleanup
@@ -187,5 +179,5 @@ You can see the status of the application you just deployed by clicking on the a
 To avoid unnecessary costs, don’t forget to terminate your application when you are done.
 Click on the terminate button to delete all your resources from Cloud.
 
-![app-cleanup-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/termination.png)
+![app-cleanup-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/29.png)
 
