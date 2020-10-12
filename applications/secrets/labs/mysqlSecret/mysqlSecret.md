@@ -2,16 +2,6 @@
 
 In this lab, you will learn how to deploy a MySQL server using Cloudplex integrated Docker-Hub which will be used to pull pre-build MySQL image and use Cloudplex secret service to store Kubernetes Secret.
 
-#### Cloud Provider
-
-CloudPlex platform gives you the freedom of choosing you any cloud provider among these four (AWS, AZURE, GCP and DO). Please select any of them to proceed.
-
-#### Cloud Profile Credentials
-
-You have to provide your selected cloud credentials in order to further continue this lab. There are fields under each cloud provider tab, fill them out.
-
-Click on the **next** button on the top right corner.
-
 
 #### Add Application Info
 
@@ -126,9 +116,9 @@ In the log window, you can see the logs of your application.
 
 ![app-deployment-logs](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/secrets/labs/mysqlSecret//images/19.png)
 
-**!! Deployment will take around 15 minutes!!** 
+**!! Deployment will take around 2 minutes!!** 
 
-You can see the status of the application you just deployed by clicking on the app tab and click on Table view to see the realtime status of the services.
+You can see the status of the application you just deployed by clicking on the ***Status*** tab and click on Table view to see the realtime status of the services.
 
 ![app-status](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/secrets/labs/mysqlSecret//images/20.png)
 
@@ -136,6 +126,10 @@ You can see the status of the application you just deployed by clicking on the a
 #### Cleanup
 
 To avoid unnecessary costs, don’t forget to terminate your application when you are done.
-Click on the terminate button to delete all your resources from Cloud.
+Click on the Terminate button to terminate your application and dont forget to Terminate the infrastrusture(s) that you used to deploy this lab.
 
-![app-cleanup-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/secrets/labs/mysqlSecret//images/21.png)
+
+#### Conclusion
+
+Congratulations! you just completed this lab and learned how to run a ***My-SQL*** server with ***Secrets*** on Kubernetes using Cloudplex platform.
+

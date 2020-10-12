@@ -31,18 +31,6 @@ See [AWS](https://docs.aws.amazon.com/vpc/) documentation to further learn about
 
 ![configred-security-group](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/infrastructures/user%20managed/labs/awsUserManaged/images/4.png)
 
-CloudPlex gives you the option to deploy a private cluster (Nodes in a private cluster are allocated private IP addresses only) 
-
-To deploy a private cluster, enable the ***Private IP*** option. 
-
-![private-cluster](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/infrastructures/user%20managed/labs/awsUserManaged/images/5.png)
-
-You can further customize your network based on your requirements. Click on the plus button to add new subnets and security groups and configure them accordingly
-
-![add-more-configurations](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/infrastructures/user%20managed/labs/awsUserManaged/images/6.png)
-
-Cloudplex will automatically configure route tables and an internet gateway, but for this lab we are going to stick to the default configurations.
-
 
 #### Configure AWS cluster
 

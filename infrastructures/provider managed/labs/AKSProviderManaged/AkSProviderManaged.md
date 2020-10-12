@@ -4,17 +4,6 @@ In this lab, you will learn how to create provider managed kubernetes cluster on
 
 #### Set up Basic Information
 
-Click create button and choose CREATE NEW KUBERNETES CLUSTER from PROVIDER MANAGED section .
-
-![cluster-type](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/infrastructures/provider%20managed/labs/AkSProviderManaged/images/1.png)
-
-Cloudplex platform will populate the basic info (Infrastructure name, Infrastructure Id) itself.
-
-Now select AZURE KUBERNETES SERVICE from avaliable provider managed cluster.
-
-![aks-cluster](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/infrastructures/provider%20managed/labs/AkSProviderManaged/images/2.png)
-
-
 Provide cloud provider credentials and save them as profile for future use.(you must have an account on Azure in order to use it).
 
 ![user-profile](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/infrastructures/provider%20managed/labs/AkSProviderManaged/images/3.png)

@@ -4,19 +4,10 @@ This Lab will help you understand the concept of Pods and Containers by running 
 
 ### Code Repository
 
-​	https://github.com/cloudplex-io/hello-world
+​https://github.com/cloudplex-io/hello-world
 
-### Cloud Provider
 
-CloudPlex platform gives you the freedom of choosing you any cloud provider among these four (AWS, AZURE, GCP and DO). Please select any of them to proceed.
-
-### Cloud Profile Credentials
-
-You have to provide your selected cloud credentials in order to further continue this lab. There are fields under each cloud provider tab, fill them out.
-
-Click on the **next** button on the top right corner.
-
-#### Add Application Info
+### Add Application Info
 
 Give name to your application and specify the version, you can also give tags to your application of your choice.
 
@@ -110,7 +101,7 @@ Click on the **Deploy** button at the top right corner and select the ***infrast
 
 In the log window, you can see the logs of your application.
 
-**!! Deployment will take around 15 minutes!!** 
+**!! Deployment will take around 2 minutes!!** 
 
 ![Lab01-Deployment-Logs-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/14.png)
 
@@ -118,13 +109,9 @@ In the log window, you can see the logs of your application.
 
 ### Accessing Your Application
 
-Click on the App to get Ingress gateway Endpoint
-
-![Lab01-Ingress-Endpoint-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/15.png)
-
-
-
+Click on the Status tab to get Ingress gateway Endpoint
 Copy Ingress Endpoint and Paste in browser new Tab.
+
 
 ### Expected Result
 
@@ -136,6 +123,9 @@ You will get this screen by copying that ingress Endpoint in your browser
 
 ### Cleanup
 
-Click on the Terminate button to remove all the resources from the cloud.
+Click on the Terminate button to terminate your application and dont forget to Terminate the infrastrusture(s) that you used to deploy this lab.
 
- ![Lab-01-cleanup-01](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/16.png)
+### Conclusion
+
+Congratulations! you just completed this lab and learned how to deploy a Hello-World app on Kubernetes using Cloudplex platform.
+

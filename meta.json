@@ -43,8 +43,21 @@
                     "title": "AWS User Managed Infrastructure",
                     "description": "How to create and use your own kubernetes cluster on AWS cloud.",
                     "complexity":"intermediate",
-                    "time":"00:40:00",
+                    "time":"00:20:00",
                     "type": "User Managed",
+                    "category": "infrastructures"
+                }
+            }
+
+        },
+        "provider managed": {
+            "labs": {
+                "AKSProviderManaged": {
+                    "title": "AKS Provider Managed Infrastructure",
+                    "description": "How to create and use your AKS cluster.",
+                    "complexity":"intermediate",
+                    "time":"00:20:00",
+                    "type": "Provider Managed",
                     "category": "infrastructures"
                 }
             }
