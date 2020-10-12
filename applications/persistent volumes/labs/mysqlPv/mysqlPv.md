@@ -141,7 +141,7 @@ Click on the save button to save the configuration
 
 ![button-save](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/23.png)
 
-Now you are back to your container service where you left it, Provide volume mount path. 
+Now you are back to your container service where you left it, Click on the label of the attached volume and provide mount path.
 
 ![mount-path](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/24.png)
 
