@@ -2,6 +2,10 @@
 
 In this lab, you will learn how to deploy a MySQL server using Cloudplex integrated Docker-Hub which will be used to pull pre-build MySQL image and use Persistent Volume to store data.
 
+#### Prerequisite
+
+If you want to deploy this lab, you need to deploy at least one infrastrture. We have labs on infrastrture as well, you can follow them to deploy infrastructure
+
 
 #### Add Application Info
 
@@ -152,7 +156,7 @@ A [PersistentVolumeClaim](https://kubernetes.io/docs/concepts/storage/persistent
 
 #### Deploy Application
 
-Click on the **Deploy** button at the top right corner and select the ***Infrastruture*** from the drop down list of your deployed infrastructures, your deployment will start right after saving the application and it will redirect you to the logs tabs.
+Click on the **Deploy** button at the top right corner and select the ***Infrastruture*** from the drop down list of your deployed infrastructures, your deployment will start right after saving the application and it will redirect you to the logs tabs or you can save it by clicking on the ***Save*** button to deploy it later.
 
 In the log window, you can see the logs of your application.
 

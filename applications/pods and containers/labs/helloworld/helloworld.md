@@ -7,6 +7,11 @@ This Lab will help you understand the concept of Pods and Containers by running 
 ​https://github.com/cloudplex-io/hello-world
 
 
+#### Prerequisite
+
+If you want to deploy this lab, you need to deploy at least one infrastrture. We have labs on infrastrture as well, you can follow them to deploy infrastructure
+
+
 ### Add Application Info
 
 Give name to your application and specify the version, you can also give tags to your application of your choice.
@@ -93,7 +98,7 @@ Click on the **Save** button at the bottom right corner  to save your service
 
 ### Deploy Application
 
-Click on the **Deploy** button at the top right corner and select the ***infrastruture*** from the drop down list of your deployed infrastructures, your deployment will start right after saving the application and it will redirect you to the logs tabs.
+Click on the **Deploy** button at the top right corner and select the ***infrastruture*** from the drop down list of your deployed infrastructures, your deployment will start right after saving the application and it will redirect you to the logs tabs or you can save it by clicking on the ***Save*** button to deploy it later.
 
 ![deploy-button](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/pods%20and%20containers/labs/helloworld/images/13.png)
 
