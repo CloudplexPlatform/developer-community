@@ -46,7 +46,7 @@ Next you will select the Key type, if you have an existing ***SSH*** key, select
 
 ![generate-key](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/infrastructures/user%20managed/labs/awsUserManaged/images/9.png)
 
-you can also download the key by checking the ***Download Key*** option and save your generated key [credentials](https://docs.cloudplex.io/#/pages/user-guide/components/credentials-profile/credentials-profile?id=credentials-profile) in our secure vault.
+Click on the ***generate*** button and it will save your generated key [credentials](https://docs.cloudplex.io/#/pages/user-guide/components/credentials-profile/credentials-profile?id=credentials-profile) in our secure vault.
 
 ![download-key](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/infrastructures/user%20managed/labs/awsUserManaged/images/15.png)
 
