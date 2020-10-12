@@ -129,7 +129,7 @@ Click on new from the service dropdown and CloudPlex will take you to the volume
 
 CloudPlex automatically populates default values of service (Service Id, Service Name, Namespace)
 
-Enter desired capacity  ***10Gi***  and Reclaim policy  ***delete***  from dropdown. The reclaim policy for a PersistentVolume tells the cluster what to do with the volume after it has been released of its claim
+Enter desired capacity 10Gi and Reclaim policy Delete from dropdown. The reclaim policy for a PersistentVolume tells the cluster what to do with the volume after it has been released of its claim
 
 ![policy-and-capacity](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/persistent%20volumes/labs/mysqlPv/images/22.png)
 
