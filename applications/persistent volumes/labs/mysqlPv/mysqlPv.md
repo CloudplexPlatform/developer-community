@@ -4,7 +4,7 @@ In this lab, you will learn how to deploy a MySQL server using Cloudplex integra
 
 #### Prerequisite
 
-If you want to deploy this lab, you need to deploy at least one infrastrture. We have labs on infrastrture as well, you can follow them to deploy infrastructure
+If you want to deploy this lab, you need to deploy at least one infrastructure. We have labs on infrastructure as well, you can follow them to deploy infrastructure
 
 
 #### Add Application Info

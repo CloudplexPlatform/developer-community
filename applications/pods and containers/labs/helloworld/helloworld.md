@@ -9,7 +9,7 @@ This Lab will help you understand the concept of Pods and Containers by running 
 
 #### Prerequisite
 
-If you want to deploy this lab, you need to deploy at least one infrastrture. We have labs on infrastrture as well, you can follow them to deploy infrastructure
+If you want to deploy this lab, you need to deploy at least one infrastructure. We have labs on infrastructure as well, you can follow them to deploy infrastructure
 
 
 ### Add Application Info
