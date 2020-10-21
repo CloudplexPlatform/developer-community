@@ -1,0 +1,6 @@
+{
+    "title": "RBAC Lab",
+    "description": "This Lab will help you understand how to define RBAC policies for your Kubernetes Application.",
+    "complexity": "easy",
+    "time": "00:20:00"
+}

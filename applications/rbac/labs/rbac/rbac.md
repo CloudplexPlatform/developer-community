@@ -62,7 +62,7 @@ Click on the back button on top of the configurations.
 
 Click on the ***Advance Configurations*** to enable RBAC and add Policies
 
-[advance-configurations](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/rbac/labs/rbac/images/8.png)
+![advance-configurations](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/applications/rbac/labs/rbac/images/8.png)
 
 Toggle the Enable RBAC button under the RBAC section.
 
