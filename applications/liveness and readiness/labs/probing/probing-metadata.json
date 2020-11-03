@@ -1,0 +1,6 @@
+{
+    "title": "Container Service with Probing",
+    "description": "How to deploy a MySQL Container service with Probing.",
+    "complexity":"intermediate",
+    "time":"00:40:00"
+  }
