@@ -37,7 +37,7 @@ In expert mode, you are also able to customize networking and other complex feat
 
 CloudPlex selects simple mode as the default option. We are using the default option for this Lab,
 
-[default-kuberntes-configuration](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/infrastructures/provider%20managed/labs/AKSProviderManaged/images/5.png)
+![default-kuberntes-configuration](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/infrastructures/provider%20managed/labs/AKSProviderManaged/images/5.png)
 
 
 ##### provision your configured Infrastructure
