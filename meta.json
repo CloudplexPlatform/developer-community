@@ -1,26 +1,26 @@
 {
-    "infrastructures": {
+    "KubePlex": {
       "user managed": {
         "labs": {
           "awsUserManaged": {
-            "title": "AWS User Managed Infrastructure",
+            "title": "AWS User Managed KubePlex",
             "description": "How to create and use your own kubernetes cluster on AWS cloud.",
             "complexity": "intermediate",
             "time": "00:20:00",
             "type": "User Managed",
-            "category": "infrastructures"
+            "category": "KubePlex"
           }
         }
       },
       "provider managed": {
         "labs": {
           "AKSProviderManaged": {
-            "title": "AKS Provider Managed Infrastructure",
+            "title": "AKS Provider Managed KubePlex",
             "description": "How to create and use your AKS cluster.",
             "complexity": "intermediate",
             "time": "00:20:00",
             "type": "Provider Managed",
-            "category": "infrastructures"
+            "category": "KubePlex"
           }
         }
       }
