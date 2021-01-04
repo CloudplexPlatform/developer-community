@@ -1,5 +1,5 @@
 {
-  "title": "AWS User Managed Infrastructure",
+  "title": "AWS User Managed Infrastructure with KubePlex",
   "description": "How to create and use your own kubernetes cluster on AWS cloud.",
   "complexity":"intermediate",
   "time":"00:40:00"
