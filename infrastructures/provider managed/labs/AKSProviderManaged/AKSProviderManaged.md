@@ -23,9 +23,9 @@ CloudPlex automatically configures a complete network for you. But You can furth
 
 ![configured-network](https://raw.githubusercontent.com/CloudplexPlatform/developer-community/feature/github-data-fetching/infrastructures/provider%20managed/labs/AKSProviderManaged/images/4.png)
 
-Clicking on the ***next*** button will take you to the cluster tab.
+Clicking on the ***next*** button will take you to the Configuration tab.
 
-#### Configure AKS cluster
+#### Configure AKS Cluster Configuration
 
 Cloudplex gives you three levels of configuration options, “simple”, “advanced”, and “expert”. 
 
